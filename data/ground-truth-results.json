@@ -1,0 +1,2109 @@
+{
+  "4c1e419c": {
+    "questions": [
+      "What happens during a 34% attack in a blockchain network?",
+      "How can an entity disrupt a blockchain with a 34% attack?",
+      "Why is controlling more than 34% of a network power significant in Proof-of-Stake systems?"
+    ]
+  },
+  "078e9f04": {
+    "questions": [
+      "What happens when an entity achieves a 51% attack on a blockchain network?",
+      "How can controlling over 50% of mining power affect a blockchain's integrity?",
+      "What are the potential consequences of a 51% attack for coin transactions?"
+    ]
+  },
+  "9afbd80e": {
+    "questions": [
+      "What is the primary function of the Aave protocol?",
+      "Can you explain what a flash loan is in the context of Aave?",
+      "How does Aave enable users to earn interest on their deposited cryptocurrencies?"
+    ]
+  },
+  "f427b58e": {
+    "questions": [
+      "What are Aavegotchis and how do they relate to decentralized finance?",
+      "How can users earn rewards in the Aavegotchi game?",
+      "What unique features can users customize in their Aavegotchis?"
+    ]
+  },
+  "1ab0643e": {
+    "questions": [
+      "What is the purpose of an airdrop in the cryptocurrency space?",
+      "How do I qualify to receive tokens during an airdrop event?",
+      "What criteria do recipients need to meet to be part of an airdrop?"
+    ]
+  },
+  "50a11380": {
+    "questions": [
+      "What is the primary function of Akash Network in the cloud computing space?",
+      "How does Akash Network differ from traditional cloud providers like AWS?",
+      "What role does the AKT token play within the Akash Network?"
+    ]
+  },
+  "76dce9ae": {
+    "questions": [
+      "What mechanism does Algorand use to achieve decentralization and security?",
+      "What are some of the primary uses of the ALGO cryptocurrency?",
+      "How does Algorand aim to support decentralized applications and finance?"
+    ]
+  },
+  "bc59adb5": {
+    "questions": [
+      "What are Algorand Smart Contracts and what makes them unique?",
+      "In which programming language are ASC1 contracts written?",
+      "Why are Algorand Smart Contracts considered a good choice for dApps and financial transactions?"
+    ]
+  },
+  "5be8dbc6": {
+    "questions": [
+      "What is the primary focus of Alpha Homora in the decentralized finance space?",
+      "How does Alpha Homora allow users to increase their returns when participating in liquidity pools?",
+      "What additional services does Alpha Homora provide besides leveraged yield farming?"
+    ]
+  },
+  "a3edc75b": {
+    "questions": [
+      "What are the main purposes of Altcoins compared to Bitcoin?",
+      "Can you give me some examples of Altcoins and their unique features?",
+      "How do Altcoins improve upon Bitcoin's limitations like scalability and privacy?"
+    ]
+  },
+  "dfb36789": {
+    "questions": [
+      "What type of blockchain does Anchor Protocol operate on?",
+      "How does Anchor Protocol generate returns for depositors?",
+      "What type of collateral do borrowers use in Anchor Protocol?"
+    ]
+  },
+  "1e02a3b8": {
+    "questions": [
+      "What is Ankr and what services does it provide for developers?",
+      "How does Ankr make cloud computing resources affordable?",
+      "What are the main uses of the ANKR token within its ecosystem?"
+    ]
+  },
+  "b5f758a6": {
+    "questions": [
+      "What is the main function of Aragon as a platform within the cryptocurrency space?",
+      "How does the ANT token contribute to the governance of the Aragon ecosystem?",
+      "What are some of the primary tools that Aragon provides for managing decentralized autonomous organizations?"
+    ]
+  },
+  "386fd21a": {
+    "questions": [
+      "What does arbitrage trading mean in the context of cryptocurrencies?",
+      "How do traders profit from arbitrage trading in different markets?",
+      "Can arbitrage trading be considered a low-risk investment strategy in crypto?"
+    ]
+  },
+  "78462cbd": {
+    "questions": [
+      "What is the primary purpose of the Arweave protocol?",
+      "How does Arweave ensure that data remains accessible and persistent over time?",
+      "What is the unique technology that Arweave uses for data storage?"
+    ]
+  },
+  "a663cd4a": {
+    "questions": [
+      "What is the main benefit of using an atomic cross-chain swap for exchanging cryptocurrencies?",
+      "How does the atomic feature of a cross-chain swap ensure transaction reliability?",
+      "Is a third party required for conducting an atomic cross-chain swap between different blockchains?"
+    ]
+  },
+  "74e61101": {
+    "questions": [
+      "What is an atomic swap in the context of cryptocurrencies?",
+      "How do atomic swaps facilitate exchanges between different blockchains?",
+      "In what way do smart contracts contribute to the security of atomic swaps?"
+    ]
+  },
+  "559a1c6e": {
+    "questions": [
+      "What types of cryptocurrencies can I store in Atomic Wallet?",
+      "Does Atomic Wallet allow me to exchange coins without a central authority?",
+      "How does Atomic Wallet ensure the security of my private keys?"
+    ]
+  },
+  "97e3ac74": {
+    "questions": [
+      "What is an auction in the context of cryptocurrencies?",
+      "What types of auctions are used for selling digital assets like NFTs?",
+      "How does competitive bidding work in an auction format?"
+    ]
+  },
+  "183b5a65": {
+    "questions": [
+      "What role do algorithms play in Automated Market Makers?",
+      "How do Automated Market Makers maintain market liquidity without an order book?",
+      "Can you explain how liquidity pools are used in Automated Market Makers?"
+    ]
+  },
+  "84226f2b": {
+    "questions": [
+      "What is the primary purpose of the Avalanche blockchain platform?",
+      "How does Avalanche achieve high performance and scalability?",
+      "Can I create my own blockchain on Avalanche and connect it with other networks?"
+    ]
+  },
+  "af2c7c88": {
+    "questions": [
+      "What are the main activities players can do in Axie Infinity?",
+      "How do players earn cryptocurrency while playing Axie Infinity?",
+      "What kind of creatures do players collect and battle in Axie Infinity?"
+    ]
+  },
+  "79bfff8e": {
+    "questions": [
+      "What is the main focus of Badger DAO in the decentralized finance space?",
+      "How does Badger DAO enable the use of Bitcoin in the DeFi ecosystem?",
+      "What role does the BADGER token play within Badger DAO?"
+    ]
+  },
+  "e67a2343": {
+    "questions": [
+      "What features does Balancer offer that differentiate it from traditional exchanges?",
+      "How does Balancer enable users to manage their portfolios effectively?",
+      "Can you explain what is meant by creating custom liquidity pools in Balancer?"
+    ]
+  },
+  "0ae68835": {
+    "questions": [
+      "What is BEP-20 and how does it relate to Binance Smart Chain?",
+      "In what ways is BEP-20 similar to Ethereum's ERC-20?",
+      "What can BEP-20 tokens be used for on the Binance Smart Chain network?"
+    ]
+  },
+  "892fc1b9": {
+    "questions": [
+      "What is BEP-721 and what does it facilitate on Binance Smart Chain?",
+      "How does BEP-721 differentiate non-fungible tokens from fungible ones?",
+      "What guidelines does BEP-721 provide for managing unique digital assets?"
+    ]
+  },
+  "684e1f51": {
+    "questions": [
+      "What is Binance Coin and how did it start in the cryptocurrency space?",
+      "In what ways can Binance Coin be utilized within the Binance platform?",
+      "What blockchain does Binance Coin operate on after its initial launch as an ERC-20 token?"
+    ]
+  },
+  "a115a359": {
+    "questions": [
+      "What is the main purpose of Binance Smart Chain?",
+      "How does Binance Smart Chain support decentralized applications?",
+      "In what way is Binance Smart Chain compatible with Ethereum?"
+    ]
+  },
+  "eeb90aa7": {
+    "questions": [
+      "What is the relationship between Binance USD and the U.S. dollar?",
+      "Who issued Binance USD and in collaboration with whom?",
+      "What approvals does Binance USD have regarding its regulation?"
+    ]
+  },
+  "5c663a6e": {
+    "questions": [
+      "What is the main feature that allows Bitcoin to facilitate peer-to-peer transactions?",
+      "Who created Bitcoin and in which year was it introduced?",
+      "How does Bitcoin maintain security and validate transactions on its network?"
+    ]
+  },
+  "515e6fa3": {
+    "questions": [
+      "What is BitGo and who is it designed for?",
+      "How does BitGo enhance security for digital assets?",
+      "What type of services does BitGo offer to institutional investors?"
+    ]
+  },
+  "131e7285": {
+    "questions": [
+      "What is the primary function of a block explorer in blockchain technology?",
+      "How can a block explorer help me verify my cryptocurrency transactions?",
+      "What types of data can I find when using a block explorer?"
+    ]
+  },
+  "87a5db95": {
+    "questions": [
+      "What does block finalization mean in the context of blockchain technology?",
+      "How does block finalization affect the immutability of transactions on a blockchain?",
+      "What happens to a block once it is finalized and added to the blockchain?"
+    ]
+  },
+  "89e96d2d": {
+    "questions": [
+      "What is the purpose of a block reward in the blockchain ecosystem?",
+      "What do miners or validators receive as part of the block reward?",
+      "How does the block reward motivate participants in securing the blockchain?"
+    ]
+  },
+  "21d33efb": {
+    "questions": [
+      "What does block time refer to in blockchain technology?",
+      "How does block time impact transaction processing speed?",
+      "In what way does block time affect network efficiency?"
+    ]
+  },
+  "4462aa17": {
+    "questions": [
+      "What does it mean for a blockchain to be decentralized and distributed?",
+      "How does blockchain achieve data security and ensure transparency?",
+      "Why is the irreversibility of blockchain data significant for decentralized applications?"
+    ]
+  },
+  "ab9472eb": {
+    "questions": [
+      "What does it mean to bond assets in the context of blockchain and DeFi?",
+      "Can you explain how staking tokens is related to the bonding process?",
+      "What kind of rewards can users expect from bonding their assets in a network?"
+    ]
+  },
+  "46b60d10": {
+    "questions": [
+      "What features make Brave Browser privacy-focused compared to other browsers?",
+      "How does Brave Browser allow users to earn rewards while using the platform?",
+      "What is the Basic Attention Token (BAT) and how does it relate to Brave Browser?"
+    ]
+  },
+  "91f390bf": {
+    "questions": [
+      "What does bridging mean in the context of blockchain networks?",
+      "How does bridging improve interactions between different blockchains?",
+      "What benefits does bridging provide for decentralized applications?"
+    ]
+  },
+  "398b2a9f": {
+    "questions": [
+      "What is the purpose of a burn address in cryptocurrency?",
+      "How does sending tokens to a burn address affect the total supply of a cryptocurrency?",
+      "Can using a burn address increase the value of remaining tokens?"
+    ]
+  },
+  "27d3a2bd": {
+    "questions": [
+      "What is the purpose of a burn mechanism in cryptocurrency?",
+      "How does sending tokens to a burn address affect the token's supply?",
+      "In what ways can a burn mechanism influence the value of a cryptocurrency token?"
+    ]
+  },
+  "6215fff7": {
+    "questions": [
+      "What is the significance of Byzantine Fault Tolerance in distributed systems?",
+      "How does Byzantine Fault Tolerance contribute to the security of blockchain networks?",
+      "Can Byzantine Fault Tolerance still function if some participants act maliciously?"
+    ]
+  },
+  "82907989": {
+    "questions": [
+      "What is the Byzantine Generals Problem in the context of decentralized systems?",
+      "How does the Byzantine Generals Problem relate to blockchain consensus mechanisms like Proof of Work?",
+      "Why is reaching consensus challenging according to the Byzantine Generals Problem?"
+    ]
+  },
+  "840a875c": {
+    "questions": [
+      "Who founded the Cardano blockchain platform?",
+      "What consensus mechanism does Cardano use for its transactions?",
+      "How does Cardano's architecture contribute to its scalability and sustainability?"
+    ]
+  },
+  "d7582249": {
+    "questions": [
+      "What is a centralized exchange and how does it facilitate cryptocurrency trading?",
+      "What are the benefits of using a centralized exchange compared to other trading methods?",
+      "Why do users need to trust the central authority when using a centralized exchange?"
+    ]
+  },
+  "11bb594b": {
+    "questions": [
+      "What is the purpose of chain reorganization in a blockchain network?",
+      "How does chain reorganization affect the integrity of the blockchain?",
+      "What causes a blockchain to undergo a chain reorganization?"
+    ]
+  },
+  "acbf6258": {
+    "questions": [
+      "What is the primary function of Chainlink in the context of blockchain technology?",
+      "How does Chainlink ensure that data sources are reliable and tamper-proof?",
+      "In which sectors besides decentralized finance is Chainlink utilized for real-world data?"
+    ]
+  },
+  "75405e38": {
+    "questions": [
+      "What is the primary function of Chainlink Keepers in the blockchain ecosystem?",
+      "How do Chainlink Keepers improve the execution of smart contracts?",
+      "In what situations would one typically use Chainlink Keepers for automation?"
+    ]
+  },
+  "856f9cb2": {
+    "questions": [
+      "What is the purpose of Chainlink VRF in smart contracts?",
+      "How does Chainlink VRF ensure the security of random number generation?",
+      "In what scenarios is Chainlink VRF particularly useful for developers?"
+    ]
+  },
+  "e2651334": {
+    "questions": [
+      "What is the primary consensus mechanism used by Chia and how does it differ from traditional mining?",
+      "How does Chia utilize hard drive space in securing its network?",
+      "What role does the XCH token play within the Chia blockchain platform?"
+    ]
+  },
+  "8718d1c5": {
+    "questions": [
+      "What type of wallet is Coinbase Wallet and who developed it?",
+      "Which cryptocurrencies can be stored in the Coinbase Wallet?",
+      "What features does Coinbase Wallet offer for managing digital assets?"
+    ]
+  },
+  "598d76f0": {
+    "questions": [
+      "What types of cryptocurrencies does Coinomi Wallet support?",
+      "How does Coinomi Wallet handle user privacy and data security?",
+      "Can I use Coinomi Wallet on both mobile and desktop devices?"
+    ]
+  },
+  "55d5bb57": {
+    "questions": [
+      "What does cold storage mean in relation to cryptocurrency security?",
+      "What are some methods used for implementing cold storage?",
+      "Why is cold storage considered safer than online wallets?"
+    ]
+  },
+  "105f9e35": {
+    "questions": [
+      "What exactly is a cold wallet in the context of cryptocurrency?",
+      "How does a cold wallet enhance the security of my digital assets?",
+      "What types of cold wallets are commonly used for long-term storage?"
+    ]
+  },
+  "420c6c59": {
+    "questions": [
+      "What happens to the collateral in a collateralized debt position if the loan is not repaid?",
+      "How does a collateralized debt position ensure the stability of a DeFi protocol?",
+      "What is required to initiate a collateralized debt position in DeFi?"
+    ]
+  },
+  "12635f68": {
+    "questions": [
+      "What is the main purpose of the Colony framework in terms of organizational governance?",
+      "How does Colony ensure that decision-making and resource allocation are handled?",
+      "What system does Colony use to determine voting power and rewards among its members?"
+    ]
+  },
+  "951dcc4a": {
+    "questions": [
+      "What is the primary function of the Compound protocol in the DeFi space?",
+      "How do users earn interest on their crypto assets within Compound?",
+      "What role do smart contracts play in the Compound lending process?"
+    ]
+  },
+  "e2818a96": {
+    "questions": [
+      "What is the purpose of a consensus mechanism in blockchain networks?",
+      "Can you give examples of consensus mechanisms used in blockchain technology?",
+      "How do consensus mechanisms contribute to network security and prevent double-spending?"
+    ]
+  },
+  "7567140e": {
+    "questions": [
+      "What is the primary goal of the Cosmos network?",
+      "How do blockchains in the Cosmos ecosystem communicate with each other?",
+      "What does the term 'Internet of Blockchains' refer to in the context of Cosmos?"
+    ]
+  },
+  "ebb8de18": {
+    "questions": [
+      "What are the main functions of Cream Finance in the DeFi space?",
+      "Can I use both stablecoins and altcoins on Cream Finance for lending and borrowing?",
+      "Does Cream Finance offer any incentives for users, such as liquidity mining?"
+    ]
+  },
+  "02487f1d": {
+    "questions": [
+      "What is a cross-chain bridge and how does it transfer assets between blockchains?",
+      "How does a cross-chain bridge enhance interoperability in blockchain networks?",
+      "Can you explain how users interact with dApps using a cross-chain bridge?"
+    ]
+  },
+  "f0d5bccb": {
+    "questions": [
+      "What are cross-chain liquidity protocols and what purpose do they serve in the DeFi ecosystem?",
+      "Can you explain how cross-chain liquidity helps in decentralized trading and asset transfers across different blockchains?",
+      "What are some examples of cross-chain liquidity protocols, and how do they function without centralized intermediaries?"
+    ]
+  },
+  "1501af7a": {
+    "questions": [
+      "What role do economic incentives play in decentralized blockchain systems?",
+      "How do network participants like miners and validators maintain protocol integrity?",
+      "In what ways does cryptoeconomics promote fair rewards for participants in blockchain networks?"
+    ]
+  },
+  "c64ef001": {
+    "questions": [
+      "What is the primary focus of Curve in the DeFi space?",
+      "How does Curve achieve low-slippage swaps between stablecoins?",
+      "What technology does Curve use to facilitate efficient trading?"
+    ]
+  },
+  "95eef697": {
+    "questions": [
+      "What is the purpose of the Curve DAO Token (CRV) in the governance of Curve Finance?",
+      "How does Curve Finance optimize yield farming opportunities for its users?",
+      "What types of assets does Curve specialize in for its liquidity pools?"
+    ]
+  },
+  "3285b942": {
+    "questions": [
+      "What is a custodial wallet and who manages it?",
+      "What responsibilities does a custodial wallet place on the user?",
+      "What are the benefits and risks of using a custodial wallet?"
+    ]
+  },
+  "538cb22c": {
+    "questions": [
+      "What kind of coin is DAI and who issues it?",
+      "How does DAI maintain its value in relation to the US dollar?",
+      "In what types of applications is DAI commonly utilized within the DeFi space?"
+    ]
+  },
+  "53b62c96": {
+    "questions": [
+      "What is the role of governance tokens in the DAO voting process?",
+      "How do members influence decisions within a Decentralized Autonomous Organization?",
+      "Can you explain how the voting process works in a DAO?"
+    ]
+  },
+  "9e30d7c6": {
+    "questions": [
+      "What are the main features of Dash that enhance its payment capabilities?",
+      "How is Dash different from Bitcoin in terms of its structure?",
+      "What roles do miners and master nodes play in the Dash network?"
+    ]
+  },
+  "bf441ae1": {
+    "questions": [
+      "What does a debt token represent in a DeFi protocol?",
+      "How does a debt token help creditors manage their claims?",
+      "Can a debt token be used to transfer or liquidate debt positions?"
+    ]
+  },
+  "ab265f0b": {
+    "questions": [
+      "What can users buy and do in Decentraland?",
+      "How does Decentraland utilize the Ethereum blockchain?",
+      "What types of activities can users participate in on this platform?"
+    ]
+  },
+  "cea9a36d": {
+    "questions": [
+      "What does decentralization mean in the context of blockchain and cryptocurrency?",
+      "How does decentralization contribute to security and transparency in a network?",
+      "Why is decentralization important for the resilience of a cryptocurrency system?"
+    ]
+  },
+  "2e36b5db": {
+    "questions": [
+      "What is the role of governance tokens in a Decentralized Autonomous Organization?",
+      "How does a Decentralized Autonomous Organization ensure transparent decision-making?",
+      "What distinguishes a Decentralized Autonomous Organization from traditional organizations in terms of control?"
+    ]
+  },
+  "5a680a8e": {
+    "questions": [
+      "What does it mean for a decentralized exchange to operate without a central authority?",
+      "How do smart contracts enhance the security of trades on a DEX?",
+      "What are the key benefits of trading directly with other users on a DEX?"
+    ]
+  },
+  "1c88180b": {
+    "questions": [
+      "What are the main characteristics of Decentralized Finance (DeFi) that differentiate it from traditional finance?",
+      "How does DeFi utilize smart contracts within its platforms for services like lending and borrowing?",
+      "What is the primary goal of DeFi in relation to access to financial products and services?"
+    ]
+  },
+  "358c7555": {
+    "questions": [
+      "What is the main function of delegates in Delegated Proof of Stake?",
+      "How does Delegated Proof of Stake improve upon traditional Proof of Stake?",
+      "What benefits does DPoS offer in terms of transaction validation speed and efficiency?"
+    ]
+  },
+  "9bdab045": {
+    "questions": [
+      "What is the role of delegators in a blockchain network?",
+      "How do delegators contribute to network security?",
+      "What benefits do delegators receive from assigning their voting power?"
+    ]
+  },
+  "89c95528": {
+    "questions": [
+      "What is DFINITY and what platform does it support?",
+      "How does DFINITY aim to change the traditional internet infrastructure?",
+      "What token is associated with DFINITY and its applications?"
+    ]
+  },
+  "254e7b24": {
+    "questions": [
+      "What types of items are considered digital assets?",
+      "How are digital assets managed and transferred?",
+      "Can digital assets be utilized in different digital ecosystems?"
+    ]
+  },
+  "a998025b": {
+    "questions": [
+      "What does digital identity represent in the online world?",
+      "How does digital identity help users manage their online presence?",
+      "What are the main components included in a digital identity?"
+    ]
+  },
+  "891e4fa3": {
+    "questions": [
+      "What is the main advantage of using a Directed Acyclic Graph (DAG) in blockchain technology?",
+      "How does a DAG differ from traditional blockchains in terms of transaction processing?",
+      "Can you explain how transactions are confirmed in a Directed Acyclic Graph?"
+    ]
+  },
+  "180e0f80": {
+    "questions": [
+      "What is the origin of Dogecoin and how did it start?",
+      "In what ways is Dogecoin commonly used by its community?",
+      "How does Dogecoin's consensus mechanism compare to that of Bitcoin?"
+    ]
+  },
+  "a2932b09": {
+    "questions": [
+      "What is the meaning of double spend in the context of cryptocurrencies?",
+      "How does double spending affect the integrity of a blockchain's transaction history?",
+      "Why is double spending considered a security threat in cryptocurrency transactions?"
+    ]
+  },
+  "64af13e5": {
+    "questions": [
+      "What is the purpose of a dust attack in the context of cryptocurrency?",
+      "How do dust attacks affect a user's transaction privacy?",
+      "What kind of information can attackers gather through a dust attack?"
+    ]
+  },
+  "6d6d0f4f": {
+    "questions": [
+      "What is the main objective of an eclipse attack in a blockchain?",
+      "How does an attacker achieve control over a target node during an eclipse attack?",
+      "What types of malicious activities can result from an eclipse attack on a blockchain network?"
+    ]
+  },
+  "40570d9f": {
+    "questions": [
+      "What is the main purpose of EIP-1559 in the Ethereum network?",
+      "How does EIP-1559 affect Ethereum transaction fees?",
+      "What happens to a portion of the fees collected under EIP-1559?"
+    ]
+  },
+  "e4448549": {
+    "questions": [
+      "What are the main features of Electrum Wallet that make it different from other wallets?",
+      "How does Electrum Wallet enhance security for long-term Bitcoin storage?",
+      "Can I use Electrum Wallet for managing transactions without downloading the full Bitcoin blockchain?"
+    ]
+  },
+  "92adce1a": {
+    "questions": [
+      "What is the main purpose of the Enigma protocol in the context of cryptocurrencies?",
+      "How does Enigma ensure the confidentiality of smart contract execution?",
+      "What role does the ENG token play within the Enigma network?"
+    ]
+  },
+  "044f661c": {
+    "questions": [
+      "What is the role of Enjin Coin in supporting NFTs within the Enjin platform?",
+      "How does Enjin Coin facilitate the creation and trading of in-game assets?",
+      "In what ways does Enjin Coin benefit developers and players in the gaming ecosystem?"
+    ]
+  },
+  "cbc7e132": {
+    "questions": [
+      "What is the primary purpose of the EOS platform in the blockchain space?",
+      "How does EOS address issues related to transaction speed and costs?",
+      "What consensus mechanism does EOS use, and how does it benefit dApp developers?"
+    ]
+  },
+  "4f0f0291": {
+    "questions": [
+      "What is the main purpose of the ERC-20 standard in the Ethereum blockchain?",
+      "How do ERC-20 tokens ensure compatibility with decentralized applications?",
+      "What are the key rules that govern the issuance and transfer of ERC-20 tokens?"
+    ]
+  },
+  "886bd2ce": {
+    "questions": [
+      "What distinguishes ERC-721 tokens from ERC-20 tokens in terms of their characteristics?",
+      "How do ERC-721 tokens contribute to the concept of digital scarcity?",
+      "What types of assets can be represented by ERC-721 non-fungible tokens?"
+    ]
+  },
+  "ca09e41c": {
+    "questions": [
+      "What is the main function of Ethereum in the blockchain space?",
+      "How does Ethereum support decentralized finance and non-fungible tokens?",
+      "What is the native currency of Ethereum and what is its role?"
+    ]
+  },
+  "c16d2694": {
+    "questions": [
+      "What is Etherscan and what purpose does it serve for Ethereum users?",
+      "How does Etherscan enhance transparency in Ethereum transactions?",
+      "Can Etherscan be used to track smart contracts on the Ethereum network?"
+    ]
+  },
+  "69166916": {
+    "questions": [
+      "What is an evil maid attack and how does it relate to physical security?",
+      "In what situations is a device most vulnerable to an evil maid attack?",
+      "What kind of actions can an attacker perform during an evil maid attack on a hardware wallet?"
+    ]
+  },
+  "f8b0ecd4": {
+    "questions": [
+      "What happens to investor funds during an exit scam in a cryptocurrency project?",
+      "How do developers typically execute an exit scam after an ICO?",
+      "What financial impact can an exit scam have on users involved in a fraudulent cryptocurrency platform?"
+    ]
+  },
+  "0c5eb6e6": {
+    "questions": [
+      "What types of cryptocurrencies can I store in Exodus Wallet?",
+      "Does Exodus Wallet allow me to swap tokens within the app?",
+      "Is Exodus Wallet a custodial or non-custodial wallet?"
+    ]
+  },
+  "df41d1c9": {
+    "questions": [
+      "What is Fantom and what are its primary applications in the blockchain space?",
+      "How does the Lachesis consensus mechanism improve transaction finality on the Fantom platform?",
+      "What advantages does Fantom offer in terms of fees and security compared to other blockchain platforms?"
+    ]
+  },
+  "6aefb77c": {
+    "questions": [
+      "What is the primary purpose of Filecoin in the context of data storage?",
+      "How does Filecoin incentivize users to participate in the storage network?",
+      "What underlying technology is Filecoin built on?"
+    ]
+  },
+  "7e3ce362": {
+    "questions": [
+      "What does finality mean in the context of blockchain transactions?",
+      "How does strong finality contribute to the security of a blockchain?",
+      "Why is it important that a confirmed block becomes a permanent part of the ledger?"
+    ]
+  },
+  "aa8860bd": {
+    "questions": [
+      "What is the main strategy behind flash arbitrage in cryptocurrency trading?",
+      "How do traders typically execute flash arbitrage to take advantage of price discrepancies?",
+      "Why is speed important in the execution of flash arbitrage trades?"
+    ]
+  },
+  "8f806362": {
+    "questions": [
+      "What causes a flash crash in the cryptocurrency market?",
+      "How quickly does a flash crash typically happen?",
+      "What are the potential consequences of a flash crash for investors?"
+    ]
+  },
+  "ff0d1c91": {
+    "questions": [
+      "What is a flash loan in the context of decentralized finance?",
+      "How is a flash loan different from traditional loans regarding collateral?",
+      "What are some typical use cases for flash loans in the DeFi ecosystem?"
+    ]
+  },
+  "04935b02": {
+    "questions": [
+      "What are flash loans and how are they typically provided by DeFi platforms?",
+      "In what ways can attackers utilize flash loan attacks to exploit smart contracts?",
+      "What kind of financial impacts can result from a flash loan attack on a DeFi protocol?"
+    ]
+  },
+  "7a645aea": {
+    "questions": [
+      "What are the main goals of Flashbots in the context of Ethereum trading?",
+      "How does Flashbots aim to improve transaction processing for users?",
+      "What issues in high-frequency trading does Flashbots specifically address?"
+    ]
+  },
+  "a815e473": {
+    "questions": [
+      "What is the purpose of Flashbots Auction in the cryptocurrency market?",
+      "How does Flashbots Auction help in reducing front-running issues?",
+      "In what way does Flashbots Auction improve transaction execution for traders?"
+    ]
+  },
+  "fd68c3f8": {
+    "questions": [
+      "What is the purpose of Flashbots MEV in the context of miners and their transaction processes?",
+      "How does Flashbots MEV help in reducing risks associated with Miner Extractable Value?",
+      "Can you explain the specific risks like front-running and sandwich attacks that Flashbots MEV aims to mitigate?"
+    ]
+  },
+  "00647bfd": {
+    "questions": [
+      "What does floor price mean in the context of NFTs or digital assets?",
+      "How can floor price be used as a benchmark for asset value?",
+      "Is the floor price the same across different marketplaces for the same collection?"
+    ]
+  },
+  "75c21a36": {
+    "questions": [
+      "What is a fork in the context of blockchain technology?",
+      "Can you explain the difference between a hard fork and a soft fork?",
+      "How does a fork impact the existing blockchain and its users?"
+    ]
+  },
+  "44af59e0": {
+    "questions": [
+      "What is the role of a full node in a blockchain network?",
+      "How does a full node contribute to the security of a decentralized network?",
+      "What does it mean for a full node to fully enforce the rules of the protocol?"
+    ]
+  },
+  "e53194b9": {
+    "questions": [
+      "What is the purpose of the funding rate in perpetual contract markets?",
+      "How does a positive funding rate affect traders in a market?",
+      "In what situation do long traders pay short traders regarding the funding rate?"
+    ]
+  },
+  "ba8ed1a2": {
+    "questions": [
+      "What exactly is a futures contract in the context of trading?",
+      "How do traders use futures contracts to hedge against price volatility?",
+      "In what ways can futures trading be advantageous for speculation in cryptocurrencies?"
+    ]
+  },
+  "87abd7e4": {
+    "questions": [
+      "What are the benefits of owning in-game assets as NFTs on Gala Games?",
+      "How does the play-to-earn mechanism work within the Gala Games ecosystem?",
+      "What role does the GALA token play in the Gala Games platform?"
+    ]
+  },
+  "14995089": {
+    "questions": [
+      "What does GameFi allow players to earn through gameplay?",
+      "How does GameFi integrate elements of cryptocurrency and NFTs?",
+      "What kind of ecosystem does GameFi create for in-game activities?"
+    ]
+  },
+  "41ff713a": {
+    "questions": [
+      "What is the purpose of a gas fee in a blockchain network like Ethereum?",
+      "How do users pay gas fees when performing operations on the blockchain?",
+      "Who receives the gas fees collected from users on the network?"
+    ]
+  },
+  "fd5be88b": {
+    "questions": [
+      "What is the gas limit in Ethereum transactions?",
+      "How does the gas limit help manage network resources?",
+      "Why is it important for transactions to have a gas limit?"
+    ]
+  },
+  "7c099f8f": {
+    "questions": [
+      "What is a gas optimizer and its purpose in blockchain transactions?",
+      "How does a gas optimizer help in reducing gas fees specifically?",
+      "In what ways can a gas optimizer improve the cost-effectiveness of executing smart contracts?"
+    ]
+  },
+  "883bc6aa": {
+    "questions": [
+      "What is the main purpose of a gas oracle in Ethereum transactions?",
+      "How does a gas oracle help users avoid overpaying for gas fees?",
+      "What factors do gas oracles consider when predicting gas prices?"
+    ]
+  },
+  "918d0868": {
+    "questions": [
+      "What does the gas price refer to in cryptocurrency transactions?",
+      "How does gas price affect transaction processing on a blockchain?",
+      "What factors influence the speed and priority of processing transactions in a blockchain network?"
+    ]
+  },
+  "991eee31": {
+    "questions": [
+      "What are gas wars in the context of blockchain transactions?",
+      "How do gas wars affect the cost of transaction fees?",
+      "What happens to the blockchain network during gas wars?"
+    ]
+  },
+  "3a3aec55": {
+    "questions": [
+      "What are gasless transactions in the context of blockchain?",
+      "How are gas fees handled in gasless transactions?",
+      "Can you explain how meta-transactions contribute to gasless transactions?"
+    ]
+  },
+  "2cb89d7a": {
+    "questions": [
+      "What is a Gnosis Safe and how does it operate?",
+      "Why is Gnosis Safe popular in DAOs for managing funds?",
+      "How does the multi-signature feature of Gnosis Safe enhance security?"
+    ]
+  },
+  "6806e3eb": {
+    "questions": [
+      "What is a governance proposal in the context of blockchain?",
+      "Who can submit a governance proposal and how does it get approved?",
+      "What process does a governance proposal go through after it is submitted?"
+    ]
+  },
+  "51b93416": {
+    "questions": [
+      "What are governance tokens and what role do they play in decentralized finance?",
+      "How do governance tokens empower users in decentralized protocols?",
+      "Can you give examples of governance tokens used in decentralized autonomous organizations?"
+    ]
+  },
+  "84b5faf4": {
+    "questions": [
+      "What is Guarda Wallet and how does it store cryptocurrencies?",
+      "Can I exchange cryptocurrencies using Guarda Wallet, and what types does it support?",
+      "What platforms can I use Guarda Wallet on, and what does non-custodial mean?"
+    ]
+  },
+  "fec38278": {
+    "questions": [
+      "What is the relationship between Gwei and Ether?",
+      "How is Gwei used in the Ethereum network?",
+      "How much is one Gwei worth in Ether?"
+    ]
+  },
+  "2a273ff9": {
+    "questions": [
+      "What does Halving mean in the context of cryptocurrency?",
+      "How often does the Halving event occur in cryptocurrency networks?",
+      "Why is Halving implemented in Bitcoin and what is its purpose?"
+    ]
+  },
+  "f717398f": {
+    "questions": [
+      "What happens to the existing cryptocurrency when a hard fork occurs?",
+      "How does a hard fork create two separate blockchains?",
+      "What can cause disagreements in the community that lead to a hard fork?"
+    ]
+  },
+  "cd8c3321": {
+    "questions": [
+      "What is the primary function of a hardware wallet in the context of cryptocurrency?",
+      "How does a hardware wallet enhance security for cryptocurrency transactions?",
+      "Why should I use a hardware wallet instead of storing my keys online?"
+    ]
+  },
+  "14e5c38e": {
+    "questions": [
+      "What does Harvest Finance do for its users in terms of yield farming?",
+      "How does Harvest Finance maximize returns on users' investments?",
+      "What is the role of the FARM token in the Harvest Finance platform?"
+    ]
+  },
+  "4ecb36b5": {
+    "questions": [
+      "What does hashrate indicate in a Proof of Work blockchain?",
+      "How does a higher hashrate contribute to network security?",
+      "What is the relationship between hashrate and the speed of solving cryptographic puzzles?"
+    ]
+  },
+  "8900be75": {
+    "questions": [
+      "What is the primary purpose of the Helium network in relation to IoT devices?",
+      "How can individuals earn HNT tokens through the Helium network?",
+      "What technology underpins the Helium network for providing connectivity?"
+    ]
+  },
+  "993edd79": {
+    "questions": [
+      "What does the term HODL mean in the context of cryptocurrencies?",
+      "Why do investors choose to HODL their cryptocurrency investments?",
+      "How did HODL originate as a term in the cryptocurrency community?"
+    ]
+  },
+  "a4925328": {
+    "questions": [
+      "What is a hot wallet in the context of cryptocurrencies?",
+      "How does a hot wallet facilitate transactions?",
+      "Why is a hot wallet considered more vulnerable than cold storage?"
+    ]
+  },
+  "5d0c3109": {
+    "questions": [
+      "What is the main purpose of Huobi Token (HT) within the Huobi cryptocurrency exchange?",
+      "How does holding Huobi Token (HT) benefit users in terms of trading fees?",
+      "What type of blockchain does Huobi Token (HT) operate on?"
+    ]
+  },
+  "7c03bf13": {
+    "questions": [
+      "What is Hyperledger Fabric and who is it designed for?",
+      "How does Hyperledger Fabric differ from public blockchains regarding access control?",
+      "What are smart contracts in Hyperledger Fabric called and what industries can benefit from it?"
+    ]
+  },
+  "7d1f2081": {
+    "questions": [
+      "What type of game is Illuvium and on which blockchain is it built?",
+      "Can players earn rewards in Illuvium, and if so, what is the currency used for those rewards?",
+      "What activities can players engage in to interact with Illuvials in Illuvium?"
+    ]
+  },
+  "4df48dd2": {
+    "questions": [
+      "What is meant by 'impermanent loss' in a liquidity pool?",
+      "How does impermanent loss affect liquidity providers in decentralized finance?",
+      "In what circumstances can impermanent loss become significant for asset values?"
+    ]
+  },
+  "90ff9511": {
+    "questions": [
+      "What types of cryptocurrencies can be managed with Infinity Wallet?",
+      "How does Infinity Wallet ensure user privacy and data security?",
+      "Is Infinity Wallet compatible with both desktop and mobile devices?"
+    ]
+  },
+  "944e47e5": {
+    "questions": [
+      "What is the primary purpose of an Initial Coin Offering (ICO) in the cryptocurrency space?",
+      "How do participants benefit from investing in an ICO?",
+      "What do new cryptocurrency projects typically offer in exchange for capital during an ICO?"
+    ]
+  },
+  "3a4e7d53": {
+    "questions": [
+      "What is the purpose of InstaDApp in the DeFi space?",
+      "How does InstaDApp simplify the management of DeFi strategies?",
+      "Which DeFi platforms are integrated into InstaDApp for user convenience?"
+    ]
+  },
+  "62d4ee44": {
+    "questions": [
+      "What is the primary function of an interoperability bridge in blockchain technology?",
+      "How does an interoperability bridge enhance decentralized applications across various blockchain networks?",
+      "What benefits does cross-chain interaction provide when using an interoperability bridge?"
+    ]
+  },
+  "3334a5c9": {
+    "questions": [
+      "What is the main purpose of the InterPlanetary File System (IPFS)?",
+      "How does IPFS ensure data storage and sharing among users?",
+      "What advantages does IPFS offer over traditional centralized storage systems?"
+    ]
+  },
+  "3010e4bd": {
+    "questions": [
+      "What types of cryptocurrencies can KeepKey store securely?",
+      "How does KeepKey protect private keys from internet exposure?",
+      "Can I trade cryptocurrencies directly through KeepKey, and how does it ensure security during trades?"
+    ]
+  },
+  "c4fe8318": {
+    "questions": [
+      "What is the role of Layer 0 in supporting multiple blockchains?",
+      "How does Layer 0 contribute to scalability and security in blockchain technology?",
+      "What components are included in the Layer 0 infrastructure?"
+    ]
+  },
+  "97da07fe": {
+    "questions": [
+      "What is the primary function of a Layer 1 blockchain in the context of network operations?",
+      "Can you give me examples of popular Layer 1 blockchains and their use cases?",
+      "How do scaling solutions and smart contracts relate to Layer 1 blockchains?"
+    ]
+  },
+  "9da13c7c": {
+    "questions": [
+      "What are some examples of Layer 2 solutions in blockchain technology?",
+      "How does Layer 2 improve the effectiveness of a Layer 1 blockchain?",
+      "In what way do Layer 2 protocols reduce congestion on the main blockchain?"
+    ]
+  },
+  "d602161f": {
+    "questions": [
+      "What role do Layer 3 protocols play in enhancing blockchain scalability?",
+      "How do Layer 3 protocols improve decentralized applications?",
+      "In what ways do Layer 3 protocols address high transaction costs?"
+    ]
+  },
+  "9a4b625f": {
+    "questions": [
+      "What does layered security aim to protect against in systems and data?",
+      "How does layered security enhance overall protection compared to single security measures?",
+      "What are some examples of security techniques that might be combined in layered security?"
+    ]
+  },
+  "37ad5593": {
+    "questions": [
+      "What are the primary features that make Ledger Nano hardware wallets secure for storing cryptocurrencies?",
+      "How does Ledger Nano protect private keys from online threats?",
+      "In what way does Ledger Nano facilitate the management of digital assets for users?"
+    ]
+  },
+  "967fd79b": {
+    "questions": [
+      "What does the Lightning Network do to enhance Bitcoin transactions?",
+      "How does the Lightning Network help reduce transaction fees?",
+      "In what way does the Lightning Network maintain Bitcoin's security while allowing off-chain transactions?"
+    ]
+  },
+  "0ac53aaa": {
+    "questions": [
+      "What is the main purpose of Lightning Payment in the Bitcoin ecosystem?",
+      "How does the Lightning Network facilitate quick transactions compared to the main blockchain?",
+      "What advantages do off-chain payment channels provide in terms of transaction costs?"
+    ]
+  },
+  "3f08f44d": {
+    "questions": [
+      "What is a limit order in trading terms?",
+      "How does a limit order help traders avoid slippage?",
+      "Is there a guarantee that a limit order will be executed?"
+    ]
+  },
+  "4ddf4b1c": {
+    "questions": [
+      "What is the primary feature of liquid democracy in terms of voting?",
+      "How does liquid democracy enhance decision-making in blockchain governance?",
+      "Can voters choose to delegate their voting power in a liquid democracy system?"
+    ]
+  },
+  "9f466f03": {
+    "questions": [
+      "What is the main purpose of liquidity mining in decentralized finance?",
+      "How do participants benefit from liquidity mining in terms of rewards?",
+      "What do participants need to contribute to engage in liquidity mining activities?"
+    ]
+  },
+  "b266dc45": {
+    "questions": [
+      "What is a liquidity pool and what purpose does it serve in decentralized exchanges?",
+      "How do users benefit from providing assets to a liquidity pool?",
+      "What do users earn by contributing to a liquidity pool in terms of transaction fees or rewards?"
+    ]
+  },
+  "d4a28f52": {
+    "questions": [
+      "Who created Litecoin and in which year?",
+      "What is the difference in block generation times between Litecoin and Bitcoin?",
+      "What hashing algorithm does Litecoin use, and how does it affect transactions?"
+    ]
+  },
+  "447ec275": {
+    "questions": [
+      "What is the main function of a Mainnet in a cryptocurrency project?",
+      "How does a Mainnet differ from testnets and development versions?",
+      "What does it mean when a blockchain project has a fully operational Mainnet?"
+    ]
+  },
+  "b581ffd4": {
+    "questions": [
+      "What role do MKR holders play in the governance of the MakerDAO protocol?",
+      "How does the value of MKR differ from the DAI stablecoin?",
+      "What can MKR holders vote on regarding the Maker ecosystem?"
+    ]
+  },
+  "44d59ad3": {
+    "questions": [
+      "What is the role of MKR token holders in Maker Governance?",
+      "How does Maker Governance ensure the stability of the DAI stablecoin?",
+      "What types of decisions can be voted on within the Maker Governance process?"
+    ]
+  },
+  "c6969fb4": {
+    "questions": [
+      "What is MakerDAO and how does it operate within the Ethereum blockchain?",
+      "How does MakerDAO enable users to generate DAI using collateral?",
+      "Why is MakerDAO considered important in the context of decentralized finance (DeFi)?"
+    ]
+  },
+  "2089d7b5": {
+    "questions": [
+      "What is a man-in-the-middle attack in the context of cryptocurrency transactions?",
+      "How can a malicious actor exploit a man-in-the-middle attack during communication with an exchange?",
+      "What types of sensitive information are at risk during a man-in-the-middle attack?"
+    ]
+  },
+  "580a18b1": {
+    "questions": [
+      "What is the basic concept of margin trading in cryptocurrencies?",
+      "How does margin trading affect potential profits and losses for traders?",
+      "What do traders typically use as collateral when engaging in margin trading with exchanges?"
+    ]
+  },
+  "0446970f": {
+    "questions": [
+      "What role does a market maker play in providing liquidity to financial markets?",
+      "How do market makers profit from their activities in trading assets?",
+      "In what ways do market makers contribute to the stability of asset prices?"
+    ]
+  },
+  "c7775f58": {
+    "questions": [
+      "What is the main purpose of creating a meme coin?",
+      "How do meme coins often gain popularity despite their lack of utility?",
+      "What role does community engagement play in the value of meme coins?"
+    ]
+  },
+  "755b78dc": {
+    "questions": [
+      "What is the main purpose of a Merkle proof in blockchain technology?",
+      "How does a Merkle proof contribute to data verification without exposing the full dataset?",
+      "In which blockchain systems are Merkle proofs commonly utilized for enhancing security and scalability?"
+    ]
+  },
+  "4c191d5d": {
+    "questions": [
+      "What is the purpose of a Merkle tree in blockchain technology?",
+      "How does a Merkle tree organize transactions?",
+      "What do the leaf nodes and parent nodes represent in a Merkle tree?"
+    ]
+  },
+  "086b6afd": {
+    "questions": [
+      "What is MetaMask and how does it function as a wallet?",
+      "Can I use MetaMask to manage ERC-20 tokens?",
+      "How does MetaMask ensure the security of my private keys?"
+    ]
+  },
+  "5c32a97c": {
+    "questions": [
+      "What is the Metaverse and how is it created?",
+      "What types of activities can users engage in within the Metaverse?",
+      "How does blockchain technology play a role in the Metaverse?"
+    ]
+  },
+  "b6062870": {
+    "questions": [
+      "What is the primary purpose of a MEV bot in blockchain networks?",
+      "How does a MEV bot maximize profit from transaction fees?",
+      "What opportunities do MEV bots exploit in trading?"
+    ]
+  },
+  "0e745580": {
+    "questions": [
+      "What is the main function of an MEV Relay in the context of cryptocurrency transactions?",
+      "How does an MEV Relay contribute to the optimization of transaction ordering for miners or validators?",
+      "In what ways does an MEV Relay promote fairer extraction of Miner Extractable Value opportunities?"
+    ]
+  },
+  "56cebfea": {
+    "questions": [
+      "What is the definition of Miner Extractable Value (MEV)?",
+      "How do miners or validators use MEV to their advantage?",
+      "What are some examples of opportunities associated with MEV?"
+    ]
+  },
+  "692c8699": {
+    "questions": [
+      "What does minting mean in the context of NFTs?",
+      "Can you explain how minting creates a unique token on the blockchain?",
+      "What role does minting play in the ownership of digital content?"
+    ]
+  },
+  "c73e3eb2": {
+    "questions": [
+      "What is the function of Mirror Protocol in decentralized finance?",
+      "How does Mirror Protocol allow users to trade without holding real assets?",
+      "On which blockchain does Mirror Protocol operate and what types of assets does it create?"
+    ]
+  },
+  "48149380": {
+    "questions": [
+      "What are the key features that make Monero prioritize privacy and anonymity?",
+      "What techniques does Monero use to ensure transaction details are obscured?",
+      "Why is Monero preferred by individuals seeking confidential financial transactions?"
+    ]
+  },
+  "961deaed": {
+    "questions": [
+      "What does it mean when a project is described as multi-chain?",
+      "How does multi-chain improve performance for blockchain applications?",
+      "Can you explain the benefits of using multiple blockchains within a single ecosystem?"
+    ]
+  },
+  "90c964f1": {
+    "questions": [
+      "What is the main function of multisig in cryptocurrency transactions?",
+      "How does multisig improve security for managing digital assets?",
+      "Why is it important to have multiple private keys in a multisig setup?"
+    ]
+  },
+  "24697a1f": {
+    "questions": [
+      "What type of game is My Neighbor Alice and what can players do in it?",
+      "How are in-game assets represented in My Neighbor Alice?",
+      "What role does the ALICE token play in the game's economy?"
+    ]
+  },
+  "3f15a8cf": {
+    "questions": [
+      "What features does MyEtherWallet (MEW) offer for managing Ethereum and tokens?",
+      "How does MyEtherWallet ensure user control over their private keys?",
+      "Is MyEtherWallet a free service, and what type of interface does it provide for Ethereum interactions?"
+    ]
+  },
+  "af198e54": {
+    "questions": [
+      "What is the primary purpose of the NetVRk platform in the context of virtual reality?",
+      "How does NetVRk utilize NFTs within its metaverse environment?",
+      "What role does the NTVRK token play in transactions and governance on the NetVRk platform?"
+    ]
+  },
+  "9ae8ad9a": {
+    "questions": [
+      "What happens to transaction fees during network congestion?",
+      "How does network congestion affect transaction efficiency?",
+      "What causes a blockchain network to experience congestion?"
+    ]
+  },
+  "59cd3865": {
+    "questions": [
+      "What does NFT fractionalization mean in the context of digital assets?",
+      "How does NFT fractionalization make it easier for investors to participate in high-value NFTs?",
+      "Where can fractionalized NFTs be traded after their ownership is divided?"
+    ]
+  },
+  "39a76367": {
+    "questions": [
+      "What is an NFT marketplace and what does it allow users to do?",
+      "What types of digital assets can be found in an NFT marketplace?",
+      "Are there specific features commonly found in NFT marketplaces for transactions?"
+    ]
+  },
+  "1aaf2990": {
+    "questions": [
+      "What does it mean to have control of private keys in a non-custodial wallet?",
+      "How does a non-custodial wallet differ from a custodial wallet?",
+      "What are the benefits of using a non-custodial wallet for my cryptocurrency?"
+    ]
+  },
+  "2b96816d": {
+    "questions": [
+      "What makes a Non-fungible Token different from other tokens?",
+      "How is ownership of an NFT verified?",
+      "Can NFTs be divided into smaller parts for trading?"
+    ]
+  },
+  "3c5382ae": {
+    "questions": [
+      "What is the main purpose of Ocean Protocol in relation to data providers?",
+      "How does Ocean Protocol facilitate the trading of data assets?",
+      "What role does the OCEAN token play within the Ocean Protocol ecosystem?"
+    ]
+  },
+  "b310128f": {
+    "questions": [
+      "What is the process involved in off-chain governance for blockchain networks?",
+      "How does off-chain governance impact a blockchain's development and policies?",
+      "In what ways can decisions be made outside of the blockchain network for off-chain governance?"
+    ]
+  },
+  "b5303e70": {
+    "questions": [
+      "What is the process for making decisions in on-chain governance?",
+      "How does on-chain governance allow stakeholders to influence a blockchain's development?",
+      "What role do voting mechanisms play in on-chain governance?"
+    ]
+  },
+  "2936a17c": {
+    "questions": [
+      "What types of non-fungible tokens can I find on OpenSea?",
+      "How does OpenSea handle transactions for digital art and collectibles?",
+      "Can creators earn royalties when their NFTs are sold on OpenSea?"
+    ]
+  },
+  "c01ff69e": {
+    "questions": [
+      "What is the main function of optimistic rollups in relation to blockchains?",
+      "How do optimistic rollups handle the verification of transactions?",
+      "In what ways do optimistic rollups improve scalability and reduce costs for decentralized applications?"
+    ]
+  },
+  "389c0801": {
+    "questions": [
+      "What role do Oracles play in connecting smart contracts with real-world data?",
+      "How do Oracles impact decentralized applications and their functionality?",
+      "Why are Oracles important for decentralized finance (DeFi) systems?"
+    ]
+  },
+  "03c2374b": {
+    "questions": [
+      "What does order book depth indicate about market liquidity?",
+      "How does a deep order book affect price slippage during trading?",
+      "Can you explain the role of buy and sell orders in understanding order book depth?"
+    ]
+  },
+  "be48671d": {
+    "questions": [
+      "What blockchain is PancakeSwap built on?",
+      "How does PancakeSwap compare to Uniswap in terms of transaction fees?",
+      "What type of tokens does PancakeSwap support for trading and yield farming?"
+    ]
+  },
+  "dddb99c7": {
+    "questions": [
+      "What is a paper wallet and how does it store cryptocurrency information?",
+      "How does a paper wallet offer security compared to other storage methods?",
+      "What precautions should I take to protect my paper wallet from damage or loss?"
+    ]
+  },
+  "9ffdfa19": {
+    "questions": [
+      "What is the purpose of a participation reward in decentralized governance?",
+      "How do token holders benefit from participating in governance activities?",
+      "In what form are rewards typically given to users who engage in voting?"
+    ]
+  },
+  "ee11e9a3": {
+    "questions": [
+      "What are perpetual contracts and how do they compare to traditional futures contracts?",
+      "How long can a trader hold a position in a perpetual contract before it expires?",
+      "What is the funding rate mechanism associated with perpetual contracts and why is it important?"
+    ]
+  },
+  "f6650b15": {
+    "questions": [
+      "What is the main blockchain that Phantom Wallet is designed for?",
+      "What features does Phantom Wallet offer for managing Solana-based assets?",
+      "Is Phantom Wallet user-friendly for managing digital assets?"
+    ]
+  },
+  "d2dbbfe0": {
+    "questions": [
+      "What kind of sensitive information do phishing attacks try to obtain from users?",
+      "How do phishing attacks typically present themselves in the cryptocurrency space?",
+      "What are some common methods used in phishing attacks to deceive users?"
+    ]
+  },
+  "855eda4e": {
+    "questions": [
+      "What is the purpose of a Plasma chain in the context of Ethereum?",
+      "How does a Plasma chain help improve transaction throughput?",
+      "What is the relationship between Plasma chains and the main blockchain?"
+    ]
+  },
+  "1e9f8e22": {
+    "questions": [
+      "What are the primary benefits of engaging in Play-to-Earn games?",
+      "How does the gameplay in Play-to-Earn differ from conventional video games?",
+      "What types of rewards can players expect to earn in a Play-to-Earn gaming model?"
+    ]
+  },
+  "791e80c7": {
+    "questions": [
+      "What is Polkadot and how does it function as a multi-chain blockchain platform?",
+      "Who created Polkadot and what were the main issues it aims to address in blockchain technology?",
+      "How does Polkadot enable different blockchains to share information and support decentralized applications?"
+    ]
+  },
+  "49649cce": {
+    "questions": [
+      "What is Polygon and how does it relate to Ethereum?",
+      "In what ways does Polygon improve transaction efficiency compared to Ethereum?",
+      "Why is Polygon favored for decentralized applications, particularly in gaming and DeFi?"
+    ]
+  },
+  "0dda9371": {
+    "questions": [
+      "What is the main purpose of a privacy coin in the cryptocurrency market?",
+      "How do privacy coins ensure transaction details remain hidden from external parties?",
+      "What cryptographic techniques are commonly used by privacy coins to enhance anonymity?"
+    ]
+  },
+  "c537dc2d": {
+    "questions": [
+      "What is the primary function of trusted nodes in the Proof of Authority consensus mechanism?",
+      "How does Proof of Authority differ from Proof of Work and Proof of Stake?",
+      "What factors are considered in Proof of Authority for validating transactions?"
+    ]
+  },
+  "1e9cb92e": {
+    "questions": [
+      "What does it mean to 'burn' tokens in the context of Proof of Burn?",
+      "How does Proof of Burn provide rewards to participants?",
+      "What are the advantages of using Proof of Burn over Proof of Work?"
+    ]
+  },
+  "5887fea9": {
+    "questions": [
+      "What is the primary resource used in the Proof of Capacity mining process?",
+      "How does the amount of storage space affect the likelihood of mining new blocks in Proof of Capacity?",
+      "In what way does Proof of Capacity differ from Proof of Work regarding energy efficiency?"
+    ]
+  },
+  "ef7489f1": {
+    "questions": [
+      "What is the role of random waiting periods in the PoET consensus algorithm?",
+      "How does a participant win the right to create a block in the PoET system?",
+      "Can you explain how PoET determines who adds a block to the blockchain?"
+    ]
+  },
+  "3398bb07": {
+    "questions": [
+      "What is the main purpose of Proof of History in blockchain technology?",
+      "How does Proof of History improve transaction ordering on a blockchain?",
+      "What role do timestamps and cryptographic proofs play in Proof of History?"
+    ]
+  },
+  "3c2a599d": {
+    "questions": [
+      "How does the amount of cryptocurrency held influence the selection of validators in Proof of Stake?",
+      "What are the benefits of Proof of Stake compared to Proof of Work in terms of energy consumption?",
+      "In what way does Proof of Stake encourage validators to behave in the best interests of the network?"
+    ]
+  },
+  "dc96c569": {
+    "questions": [
+      "What is the primary purpose of Proof of Storage in blockchain technology?",
+      "How does Proof of Storage ensure data remains secure and accessible?",
+      "In what type of networks is Proof of Storage commonly used?"
+    ]
+  },
+  "753aee0d": {
+    "questions": [
+      "What is the main purpose of the Proof of Work algorithm in blockchain?",
+      "How do miners use Proof of Work to create new blocks?",
+      "Why is significant computational power required in Proof of Work?"
+    ]
+  },
+  "08b35fc0": {
+    "questions": [
+      "What does proposal threshold mean in decentralized governance?",
+      "How does proposal threshold prevent spam proposals?",
+      "Why is voting power important for submitting proposals?"
+    ]
+  },
+  "281ea7b2": {
+    "questions": [
+      "What is a protocol upgrade in the context of blockchain technology?",
+      "How do changes in a blockchain's protocol enhance its functionality?",
+      "What are the differences between a hard fork and a soft fork regarding protocol upgrades?"
+    ]
+  },
+  "c6319dd9": {
+    "questions": [
+      "How does quadratic voting allow participants to express their preferences in a voting system?",
+      "What is the significance of the quadratic cost structure in quadratic voting?",
+      "In what way does quadratic voting contribute to balanced decision-making in decentralized governance?"
+    ]
+  },
+  "9427ccc8": {
+    "questions": [
+      "What is the main purpose of Quant in the blockchain space?",
+      "How does the Quant Overledger platform enhance cross-chain applications?",
+      "What role does the QNT token play in the Overledger operating system?"
+    ]
+  },
+  "bbb61681": {
+    "questions": [
+      "What is Ransomware and how does it operate?",
+      "Why do attackers prefer cryptocurrency for Ransomware payments?",
+      "What are the potential impacts of a Ransomware attack on individuals and businesses?"
+    ]
+  },
+  "8fe0564c": {
+    "questions": [
+      "What is Rarible and how does it relate to NFTs?",
+      "How does Rarible enable artists to earn from their digital work?",
+      "In which blockchain does Rarible operate for its marketplace activities?"
+    ]
+  },
+  "dd4a43c6": {
+    "questions": [
+      "What does the term 'Rebase' mean in the context of cryptocurrencies?",
+      "How does the mechanism of 'Rebase' affect the total supply of tokens?",
+      "Why would a cryptocurrency use 'Rebase' to adjust token amounts for users?"
+    ]
+  },
+  "55eeaa5e": {
+    "questions": [
+      "What is a reentrancy attack in the context of smart contracts?",
+      "How can a reentrancy attack lead to financial losses for users?",
+      "What measures can be taken to prevent reentrancy attacks during smart contract development?"
+    ]
+  },
+  "83e05e9a": {
+    "questions": [
+      "What is a replay attack and how does it affect blockchain transactions?",
+      "Can a replay attack lead to unauthorized asset transfers?",
+      "How can security measures prevent replay attacks after a hard fork?"
+    ]
+  },
+  "a64584f5": {
+    "questions": [
+      "What is the main purpose of a rollup aggregator in blockchain technology?",
+      "How does a rollup aggregator improve transaction efficiency?",
+      "In what way does a rollup aggregator impact transaction fees and scalability?"
+    ]
+  },
+  "011efbc0": {
+    "questions": [
+      "What are rollups and how do they work in blockchain technology?",
+      "How do rollups improve scalability for transactions on the blockchain?",
+      "In what way do rollups maintain security while processing transactions off-chain?"
+    ]
+  },
+  "45455459": {
+    "questions": [
+      "What is a rug pull in the context of DeFi?",
+      "How do developers execute a rug pull scam?",
+      "What happens to investors during a rug pull?"
+    ]
+  },
+  "d5fe59bc": {
+    "questions": [
+      "What constitutes a rugged project in the cryptocurrency space?",
+      "How do developers typically behave in a rugged project scenario?",
+      "What are the potential outcomes for investors involved in a rugged project?"
+    ]
+  },
+  "c9779ba5": {
+    "questions": [
+      "What type of cryptocurrencies can I manage with SafePal Wallet?",
+      "How does SafePal ensure the security of my cryptocurrency?",
+      "What does it mean that SafePal is a non-custodial wallet?"
+    ]
+  },
+  "83aef45f": {
+    "questions": [
+      "What is The Sandbox and how is it related to the Ethereum blockchain?",
+      "How does The Sandbox enable users to monetize their virtual assets?",
+      "What kind of tools does The Sandbox provide for creating virtual worlds?"
+    ]
+  },
+  "dc2537a5": {
+    "questions": [
+      "Who is Satoshi Nakamoto and what is significant about their contribution to digital currency?",
+      "In what year did Satoshi Nakamoto introduce the concept of blockchain technology?",
+      "What major financial revolution is attributed to Satoshi Nakamoto's creation?"
+    ]
+  },
+  "7785900b": {
+    "questions": [
+      "What is Sharding in the context of blockchain technology?",
+      "How does Sharding improve efficiency and throughput for decentralized applications?",
+      "In what way does Sharding help reduce congestion on the main blockchain?"
+    ]
+  },
+  "7376c79f": {
+    "questions": [
+      "What is Shiba Inu and how does it relate to Dogecoin?",
+      "What tokens are included in the Shiba Inu ecosystem?",
+      "What platform is associated with Shiba Inu for trading and exchanging?"
+    ]
+  },
+  "0251e510": {
+    "questions": [
+      "What is a sidechain in blockchain technology?",
+      "How do sidechains help with scaling transactions?",
+      "Can sidechains run different consensus models without impacting the main chain?"
+    ]
+  },
+  "8c6c5183": {
+    "questions": [
+      "What are slashing conditions in the context of blockchain technology?",
+      "What types of misbehavior can lead to slashing conditions for validators?",
+      "How do slashing conditions contribute to the overall security of a blockchain network?"
+    ]
+  },
+  "57f08290": {
+    "questions": [
+      "What causes slippage during a trade execution?",
+      "How does market volatility affect slippage in trading?",
+      "In what situations is slippage more likely to occur?"
+    ]
+  },
+  "3c48f0e3": {
+    "questions": [
+      "What is the main function of a smart contract in blockchain networks?",
+      "How do smart contracts contribute to automating transactions without intermediaries?",
+      "In which industries can smart contracts be utilized effectively?"
+    ]
+  },
+  "be88f59b": {
+    "questions": [
+      "What does a smart contract vulnerability refer to in the context of smart contracts?",
+      "How can a flaw in a smart contract's code impact financial safety?",
+      "Why is it important to conduct thorough code audits for smart contracts?"
+    ]
+  },
+  "48a78d78": {
+    "questions": [
+      "What is the purpose of snapshot voting in decentralized governance?",
+      "How do token holders participate in snapshot voting?",
+      "Which projects commonly utilize snapshot voting?"
+    ]
+  },
+  "e253a1d6": {
+    "questions": [
+      "What is the primary goal of social engineering in the context of cryptocurrency?",
+      "How do attackers typically impersonate trusted sources in social engineering schemes?",
+      "What types of confidential information are commonly targeted by social engineering attacks in the crypto space?"
+    ]
+  },
+  "1a7f35ff": {
+    "questions": [
+      "What is a soft fork in the context of blockchain technology?",
+      "How does a soft fork allow for protocol changes without creating separate chains?",
+      "Can older nodes still operate effectively after a soft fork is implemented?"
+    ]
+  },
+  "34b3ed41": {
+    "questions": [
+      "What is a software wallet and how does it function in managing cryptocurrencies?",
+      "Are there specific devices where a software wallet can be installed for accessibility?",
+      "What are the security risks associated with using a software wallet compared to hardware wallets?"
+    ]
+  },
+  "2acfda39": {
+    "questions": [
+      "What makes Solana a suitable choice for developers creating decentralized applications?",
+      "Can you explain the consensus mechanisms that Solana uses and how they contribute to its performance?",
+      "What areas within the cryptocurrency space is Solana particularly popular in, and why?"
+    ]
+  },
+  "b8be6391": {
+    "questions": [
+      "What is the primary purpose of Solidity in the context of blockchain technology?",
+      "Which programming languages have influenced the development of Solidity?",
+      "How does Solidity contribute to the creation of decentralized applications on Ethereum?"
+    ]
+  },
+  "0cd34e6e": {
+    "questions": [
+      "What features does Somnium Space offer for building virtual environments?",
+      "How can users monetize their creations in Somnium Space?",
+      "What role do NFTs and the CUBE token play in Somnium Space?"
+    ]
+  },
+  "d9baa644": {
+    "questions": [
+      "What does stable yield mean in the context of DeFi?",
+      "How do stable yield products provide consistent returns?",
+      "Why are stable yield investments considered to minimize volatility?"
+    ]
+  },
+  "f30231c7": {
+    "questions": [
+      "What are stablecoins and what purpose do they serve in the cryptocurrency market?",
+      "How do stablecoins achieve price stability compared to other cryptocurrencies?",
+      "Could you give examples of popular stablecoins and their pegged assets?"
+    ]
+  },
+  "e05e7de6": {
+    "questions": [
+      "What does it mean to lock up cryptocurrency in a network for staking?",
+      "How do participants benefit from staking in terms of rewards?",
+      "What are the primary functions that staking supports within a blockchain network?"
+    ]
+  },
+  "25f71960": {
+    "questions": [
+      "What is the purpose of a staking pool in cryptocurrency?",
+      "How do participants benefit from joining a staking pool?",
+      "How are rewards distributed among members of a staking pool?"
+    ]
+  },
+  "8a71d4bc": {
+    "questions": [
+      "What type of game is Star Atlas and what is its primary setting?",
+      "How do players interact within Star Atlas and what activities can they participate in?",
+      "What are the names of the tokens that support the economy in Star Atlas?"
+    ]
+  },
+  "7b83baa3": {
+    "questions": [
+      "What is a state channel in the context of blockchain technology?",
+      "How does a state channel help in reducing fees for transactions?",
+      "In what scenarios are state channels particularly beneficial for users?"
+    ]
+  },
+  "f40e301e": {
+    "questions": [
+      "What is the primary purpose of the Stellar network?",
+      "How does Lumens (XLM) function in cross-border payments?",
+      "Who is the target audience for Stellar's financial services?"
+    ]
+  },
+  "db8cb4b0": {
+    "questions": [
+      "What does a stop-loss order do when a specific price point is reached?",
+      "How does a stop-loss order help in managing trading risk?",
+      "What happens to a stop-loss order after the stop price is hit?"
+    ]
+  },
+  "fda837d6": {
+    "questions": [
+      "What is SushiSwap and how does it facilitate trading cryptocurrencies?",
+      "Can you explain what liquidity provision and yield farming mean in the context of SushiSwap?",
+      "What unique features does SushiSwap offer compared to its predecessor, Uniswap?"
+    ]
+  },
+  "0eb84837": {
+    "questions": [
+      "What is a Sybil attack in the context of decentralized networks?",
+      "How does a Sybil attack affect consensus mechanisms?",
+      "What are the potential consequences of a Sybil attack on network security?"
+    ]
+  },
+  "24ebf19e": {
+    "questions": [
+      "What is a synthetic asset in the context of decentralized finance?",
+      "How do synthetic assets allow trading without owning the actual asset?",
+      "What role do smart contracts play in the creation of synthetic assets?"
+    ]
+  },
+  "0c74f347": {
+    "questions": [
+      "What are synthetic assets in the context of Synthetix?",
+      "How do users participate in trading on the Synthetix platform?",
+      "What role do SNX tokens play in the Synthetix ecosystem?"
+    ]
+  },
+  "764a6d54": {
+    "questions": [
+      "What are the main benefits of the Taproot upgrade for Bitcoin transactions?",
+      "How does Taproot improve the functionality of smart contracts on the Bitcoin network?",
+      "In what way does Taproot affect data storage on the Bitcoin blockchain?"
+    ]
+  },
+  "766be370": {
+    "questions": [
+      "What is the main purpose of the Terra platform in the cryptocurrency space?",
+      "How does Terra maintain the value of its stablecoins like TerraUSD (UST)?",
+      "What types of applications and services does Terra support within its ecosystem?"
+    ]
+  },
+  "f3e282e0": {
+    "questions": [
+      "What is the primary purpose of a testnet in blockchain?",
+      "How does a testnet differ from a mainnet?",
+      "Why is it important for developers to use a testnet before deploying on the mainnet?"
+    ]
+  },
+  "41405ea1": {
+    "questions": [
+      "What unique feature does Tezos have that involves its token holders?",
+      "Can you explain how Tezos manages upgrades to its protocol?",
+      "What is the main purpose of the XTZ token in the Tezos ecosystem?"
+    ]
+  },
+  "ecfeb178": {
+    "questions": [
+      "What are Tezos smart contracts and where are they deployed?",
+      "Which programming languages are used to develop Tezos smart contracts?",
+      "How do Tezos smart contracts ensure they can be updated over time?"
+    ]
+  },
+  "92f98edf": {
+    "questions": [
+      "What are the main activities users can engage in within The Sandbox platform?",
+      "How do users utilize the SAND token in The Sandbox virtual world?",
+      "In what ways can players monetize their creations in The Sandbox?"
+    ]
+  },
+  "b9df7b4e": {
+    "questions": [
+      "What is the primary purpose of the Theta Network?",
+      "How can viewers benefit from participating in the Theta Network?",
+      "What is the role of the THETA token in the Theta Network ecosystem?"
+    ]
+  },
+  "5d7fb5ac": {
+    "questions": [
+      "What is the purpose of the ThorChain protocol in the cryptocurrency space?",
+      "How does ThorChain allow for trading assets across different blockchains?",
+      "What role does the RUNE token play in the functionality of ThorChain?"
+    ]
+  },
+  "30901c73": {
+    "questions": [
+      "What does timestamping in blockchain help to prove?",
+      "How does timestamping contribute to the security of transactions?",
+      "Why is it important for timestamping to maintain transparency and immutability?"
+    ]
+  },
+  "a23b5e2c": {
+    "questions": [
+      "What does it mean to permanently remove a cryptocurrency from circulation?",
+      "How does token burn affect the total supply of a cryptocurrency?",
+      "In what way can token burn potentially increase the value of remaining tokens?"
+    ]
+  },
+  "f58b466d": {
+    "questions": [
+      "What does tokenomics encompass in relation to cryptocurrency?",
+      "How does the supply and distribution affect a token's value in tokenomics?",
+      "What are the principles that govern a token's behavior within its ecosystem?"
+    ]
+  },
+  "761c22c3": {
+    "questions": [
+      "What is the purpose of the transaction pool in cryptocurrency networks?",
+      "How do nodes decide which transactions to include from the transaction pool?",
+      "What other name is the transaction pool commonly known as?"
+    ]
+  },
+  "2dbe25c7": {
+    "questions": [
+      "What is the primary function of a Treasury DAO in a blockchain community?",
+      "How does a Treasury DAO ensure transparency in fund management?",
+      "In what way do members participate in the decision-making process of a Treasury DAO?"
+    ]
+  },
+  "2430227e": {
+    "questions": [
+      "What makes Trezor a secure option for storing cryptocurrencies?",
+      "How does Trezor protect private keys from online threats?",
+      "Can Trezor store multiple types of cryptocurrencies?"
+    ]
+  },
+  "9fccc278": {
+    "questions": [
+      "What is the purpose of the Tron blockchain platform?",
+      "How does Tron ensure fast and scalable transactions?",
+      "In what ways can TRX be utilized within the Tron network?"
+    ]
+  },
+  "e560504b": {
+    "questions": [
+      "What types of cryptocurrencies can I manage using Trust Wallet?",
+      "Does Trust Wallet offer any features for decentralized exchanges?",
+      "How does Trust Wallet ensure the security of my private keys?"
+    ]
+  },
+  "696e86e4": {
+    "questions": [
+      "What is the primary function of the Ultra gaming platform?",
+      "How does the UOS token benefit users in terms of interactions with games and digital assets?",
+      "What advantages do developers gain from using the Ultra platform compared to traditional gaming distribution methods?"
+    ]
+  },
+  "2dc2c92a": {
+    "questions": [
+      "What is an uncle block in the context of blockchain technology?",
+      "Why do uncle blocks, or orphan blocks, occur in a blockchain?",
+      "How do uncle blocks contribute to network security and fairness in mining?"
+    ]
+  },
+  "f4bb078d": {
+    "questions": [
+      "What is Uniswap and how does it function as a decentralized exchange?",
+      "How does Uniswap utilize smart contracts to manage trades and pricing?",
+      "What role do liquidity pools play in the trading process on Uniswap?"
+    ]
+  },
+  "1a92abab": {
+    "questions": [
+      "What does UTXO stand for and what is its role in cryptocurrency transactions?",
+      "How do UTXOs contribute to maintaining security and transparency in the blockchain?",
+      "In what way are UTXOs used as inputs for new transactions in Bitcoin?"
+    ]
+  },
+  "b7ef478b": {
+    "questions": [
+      "What role does a validator play in a blockchain network?",
+      "How are validators selected in Proof of Stake systems?",
+      "What rewards do validators receive for their responsibilities in the blockchain?"
+    ]
+  },
+  "a08f762c": {
+    "questions": [
+      "What is the primary focus of VeChain as a blockchain platform?",
+      "How does VeChain utilize smart contracts in its operations?",
+      "What roles do VET and VTHO play within the VeChain ecosystem?"
+    ]
+  },
+  "28c7d4a5": {
+    "questions": [
+      "What is the purpose of vote delegation in decentralized governance?",
+      "How can smaller token holders influence decision-making through vote delegation?",
+      "Who do token holders typically delegate their voting power to in vote delegation?"
+    ]
+  },
+  "9521b967": {
+    "questions": [
+      "What is the primary function of the PYR token within the Vulcan Forged ecosystem?",
+      "How can players earn rewards on the Vulcan Forged platform?",
+      "What types of activities can be performed with digital assets in the Vulcan Forged universe?"
+    ]
+  },
+  "f82b6015": {
+    "questions": [
+      "What are the main advantages of using Vyper for Ethereum smart contracts?",
+      "Why might developers prefer Vyper over Solidity when writing smart contracts?",
+      "In what types of applications is Vyper becoming more popular for use?"
+    ]
+  },
+  "4c143832": {
+    "questions": [
+      "What is the main purpose of a cryptocurrency wallet?",
+      "What are the differences between hot wallets and cold wallets?",
+      "How do wallets help in managing digital assets?"
+    ]
+  },
+  "b268b220": {
+    "questions": [
+      "What is the purpose of WASM in blockchain ecosystems?",
+      "How does WASM enhance the performance of smart contracts?",
+      "In which types of programming languages can developers write for WASM?"
+    ]
+  },
+  "161cccc5": {
+    "questions": [
+      "What is a web wallet and how do I access it?",
+      "What are the advantages of using a web wallet for my cryptocurrencies?",
+      "Why are web wallets considered vulnerable to hacking and phishing attacks?"
+    ]
+  },
+  "955d1cf5": {
+    "questions": [
+      "What is a wrapped asset in the context of blockchain technology?",
+      "How does a wrapped asset improve interoperability between different blockchains?",
+      "In what ways can a wrapped asset be utilized within decentralized applications or protocols?"
+    ]
+  },
+  "4219fe16": {
+    "questions": [
+      "What is the relationship between Wrapped Bitcoin and Bitcoin in terms of value representation?",
+      "How does Wrapped Bitcoin enable Bitcoin holders to use decentralized applications?",
+      "What type of token is Wrapped Bitcoin, and on which blockchain is it found?"
+    ]
+  },
+  "afee8c9a": {
+    "questions": [
+      "What does Wrapped BNB represent on the Binance Smart Chain?",
+      "How does Wrapped BNB enhance the utility of BNB?",
+      "In what scenarios can I use Wrapped BNB on the BSC network?"
+    ]
+  },
+  "7c21231d": {
+    "questions": [
+      "What is Wrapped Ether and how does it relate to Ether?",
+      "Why do people use Wrapped Ether instead of regular Ether?",
+      "How does wrapping ETH help with decentralized applications on the Ethereum network?"
+    ]
+  },
+  "ace43eee": {
+    "questions": [
+      "What is Wrapped Litecoin (WLTC) and how does it relate to Litecoin (LTC)?",
+      "On which networks can Wrapped Litecoin (WLTC) be used for decentralized finance applications?",
+      "How does Wrapped Litecoin (WLTC) enhance the functionality of Litecoin beyond its original blockchain?"
+    ]
+  },
+  "e14eab04": {
+    "questions": [
+      "What is Wrapped Luna (WLUNA) and how does it relate to Terra\u2019s Luna (LUNA)?",
+      "In what ways does Wrapped Luna enhance the usability of LUNA on other blockchain networks?",
+      "How does Wrapped Luna contribute to the interoperability of LUNA in decentralized applications?"
+    ]
+  },
+  "8af380a1": {
+    "questions": [
+      "What is Wrapped SOL and how does it relate to Solana?",
+      "How does Wrapped SOL enable its use in decentralized applications on different blockchains?",
+      "In what ways does Wrapped SOL expand the utility of Solana beyond its own blockchain?"
+    ]
+  },
+  "674f88dd": {
+    "questions": [
+      "What does Wrapped Staked Ether (stETH) represent in the Ethereum ecosystem?",
+      "How does stETH help stakers maintain liquidity while their ETH is staked?",
+      "In what way can staked ETH interact with DeFi applications through stETH?"
+    ]
+  },
+  "bd36e414": {
+    "questions": [
+      "What is a wrapped token and how does it function across different blockchains?",
+      "How does wrapping a cryptocurrency improve interoperability between networks?",
+      "In what scenarios can wrapped tokens be utilized within decentralized applications or liquidity pools?"
+    ]
+  },
+  "881d0e67": {
+    "questions": [
+      "What is Wrapped XRP (WXRP) and how does it relate to Ripple's XRP?",
+      "In which blockchain networks can Wrapped XRP (WXRP) be utilized?",
+      "How does Wrapped XRP (WXRP) enhance the use of XRP in decentralized finance applications?"
+    ]
+  },
+  "bdb239d0": {
+    "questions": [
+      "What is Wrapped ZCash and how does it relate to ZCash?",
+      "On which blockchain networks can Wrapped ZCash operate?",
+      "How does Wrapped ZCash enhance the utility of ZCash in decentralized applications?"
+    ]
+  },
+  "b6e3b28e": {
+    "questions": [
+      "What is XRP primarily used for in international transactions?",
+      "How does XRP achieve its transaction processing without proof-of-work or proof-of-stake?",
+      "Which company developed the digital currency XRP?"
+    ]
+  },
+  "1129e8f7": {
+    "questions": [
+      "What is the primary function of Yearn.Finance in the DeFi space?",
+      "How does YFI facilitate governance within the Yearn.Finance platform?",
+      "In what way does Yearn.Finance enhance the yield for users' crypto assets?"
+    ]
+  },
+  "9b8c2d00": {
+    "questions": [
+      "What is the primary function of a yield aggregator in decentralized finance?",
+      "How does a yield aggregator optimize returns for its users?",
+      "In what ways does a yield aggregator allocate funds across DeFi protocols?"
+    ]
+  },
+  "a4f3294a": {
+    "questions": [
+      "What does it mean to provide liquidity in yield farming?",
+      "How do users earn returns through yield farming?",
+      "What are the typical rewards users receive in yield farming?"
+    ]
+  },
+  "b77467c7": {
+    "questions": [
+      "What is the primary focus of Zcash as a cryptocurrency?",
+      "How do shielded transactions in Zcash improve privacy?",
+      "What cryptographic technique does Zcash use for optional privacy?"
+    ]
+  },
+  "a30021c2": {
+    "questions": [
+      "What is the main purpose of a zero-knowledge proof in the context of blockchain transactions?",
+      "How does a zero-knowledge proof ensure privacy without revealing the actual information?",
+      "Can you explain how one party can prove information validity to another using a zero-knowledge proof?"
+    ]
+  },
+  "12d6485e": {
+    "questions": [
+      "What are zk-Rollups and how do they function in blockchain technology?",
+      "How do zero-knowledge proofs contribute to the effectiveness of zk-Rollups?",
+      "In what ways do zk-Rollups enhance scalability and reduce fees on Ethereum?"
+    ]
+  },
+  "26b78c47": {
+    "questions": [
+      "What does zk-SNARK stand for and how does it function?",
+      "How does zk-SNARK improve privacy in transactions on the blockchain?",
+      "In what ways does zk-SNARK contribute to the scalability of blockchain networks?"
+    ]
+  },
+  "970cb970": {
+    "questions": [
+      "What is zkSync and how does it relate to Ethereum's scalability?",
+      "Can you explain how zkSync maintains security and decentralization while processing transactions off-chain?",
+      "How does zkSync achieve low-cost transactions compared to the Ethereum mainnet?"
+    ]
+  }
+}
