@@ -4,15 +4,23 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tqdm = "*"
-notebook = "==7.1.2"
 openai = "*"
-elasticsearch = "*"
 pandas = "*"
 scikit-learn = "*"
 python-dotenv = "*"
+flask = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+
 
 [dev-packages]
+tqdm = "*"
+notebook = "==7.1.2"
+ipywidgets = "*"
+jupyter = "*"
+requests = "*"
+pgcli = "*"
+questionary = "*"
 
 [requires]
 python_version = "3.12"
