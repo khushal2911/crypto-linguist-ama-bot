@@ -11,7 +11,7 @@ python-dotenv = "*"
 flask = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
-
+pgcli = "*"
 
 [dev-packages]
 tqdm = "*"
