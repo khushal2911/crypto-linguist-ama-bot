@@ -32,3 +32,15 @@ The dataset contains following columns.
 - Terms: A curated collection of essential terms from the cryptocurrency and blockchain industry.
 - Categories: The dataset is organized into ten categories to enhance clarity and user understanding.
 - Descriptions: Each term is accompanied by a brief description that defines its meaning and context.
+
+# Setting up OpenAI API KEY and Project Environment
+Because it is a fresh codespace instance, update apt and then install direnv. 
+Ensure YOUR_OPENAI_KEY is added (export KEY="!dfw#&") in .envrc file before running following commands.
+    sudo apt update 
+    sudo apt install direnv 
+    direnv bash hook >> ~/.bashrc
+    direnv allow
+
+Now install pipenv and the required packages.
+    pip install pipenv
+    pipenv install --dev

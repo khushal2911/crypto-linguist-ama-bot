@@ -9,8 +9,8 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 
 RUN pipenv install --deploy --ignore-pipfile --system
 
-COPY fitness_assistant .
+COPY crypto-linguist .
 
 EXPOSE 5000
 
-CMD gunicorn --bind 0.0.0.0:5000 app:app
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]

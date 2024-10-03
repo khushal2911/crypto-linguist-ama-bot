@@ -16,6 +16,7 @@ def get_db_connection():
         database=os.getenv("POSTGRES_DB", "crypto_linguist"),
         user=os.getenv("POSTGRES_USER", "kk"),
         password=os.getenv("POSTGRES_PASSWORD","kk"),
+        sslmode="disable"
     )
 
 
