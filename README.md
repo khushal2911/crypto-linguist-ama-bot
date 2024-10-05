@@ -56,12 +56,12 @@ Since we use OpenAI, you need to provide the API key:
 
 Because it is a fresh codespace instance, update apt and then install direnv. 
 Also, Ensure YOUR_OPENAI_KEY is added (export KEY="!dfw#&") in .envrc file before running following commands.
-'''bash
-$ sudo apt update 
-$ sudo apt install direnv 
-$ direnv bash hook >> ~/.bashrc
-$ direnv allow
-'''
+```bash
+sudo apt update 
+sudo apt install direnv 
+direnv bash hook >> ~/.bashrc
+direnv allow
+```
 For dependency management, we use pipenv, so you need to install it:
 
 ```bash
@@ -124,14 +124,14 @@ The easiest way to run the application is with `docker-compose`:
 
 Run with specific files: Use the -f flag with docker-compose to specify the file to use. For example:
 
-'''bash
+```bash
 docker-compose -f docker-compose.dev.yaml up
-'''
+```
 Or for production:
 
-'''bash
+```bash
 docker-compose -f docker-compose.prod.yaml up
-'''
+```
 
 ### Running locally
 
@@ -186,7 +186,21 @@ docker run -it --rm \
     crypto-linguist
 ```
 
-## Using the application
+## Using the Flask application
+
+Modify dockerfile to run flask application as below:
+Uncomment following lines
+```
+#EXPOSE 5000
+#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+```
+And comment following lines related to streamlit app
+```
+EXPOSE 8501
+CMD ["streamlit", "run", "app_ui.py"]
+```
+Now build the dockerfile as below
+```docker-compose -f docker-compose.dev.yaml up --build```
 
 When the application is running, we can start using it.
 
@@ -198,7 +212,7 @@ We built an interactive CLI application using
 To start it, run:
 
 ```bash
-pipenv run python cli.py
+pipenv run python app_cli.py
 ```
 
 You can also make it randomly select a question from
@@ -221,11 +235,13 @@ pipenv run python test.py
 It can also pick a random question from the ground truth dataset or you can write your own
 and send it to the app.
 
+
 ## Code Structure
 
 The code for the application is in the [`crypto-linguist`](crypto-linguist/) folder:
 
 - [`app.py`](crypto-linguist/app.py) - the Flask API, the main entrypoint to the application
+- [`app_ui.py`](crypto-linguist/app_ui.py) - the streamlit UI application
 - [`rag.py`](crypto-linguist/rag.py) - the main RAG logic for retrieving the data and building the prompt
 - [`ingest.py`](crypto-linguist/ingest.py) - loading the data into the knowledge base
 - [`minsearch.py`](crypto-linguist/minsearch.py) - an in-memory search engine
@@ -235,7 +251,7 @@ The code for the application is in the [`crypto-linguist`](crypto-linguist/) fol
 We also have some code in the project root directory:
 
 - [`test.py`](test.py) - select a random question for testing
-- [`cli.py`](cli.py) - interactive CLI for the APP, can pick randomly from data as well.
+- [`app_cli.py`](app_cli.py) - interactive CLI for the APP, can pick randomly from data as well.
 
 ### Interface
 

@@ -111,7 +111,7 @@ def calculate_openai_cost(model, tokens):
         openai_cost = (
             tokens["prompt_tokens"] * 0.00015 + tokens["completion_tokens"] * 0.0006
         ) / 1000
-    else if model == "gpt-3.5-turbo":
+    elif model == "gpt-3.5-turbo":
         openai_cost = (
             tokens["prompt_tokens"] * 0.0015 + tokens["completion_tokens"] * 0.003
         ) / 1000
