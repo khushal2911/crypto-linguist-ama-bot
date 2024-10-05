@@ -47,10 +47,10 @@ def main():
         print_log(f"User asked: '{user_input}'")
         with st.spinner("Processing..."):
             print_log(
-                f"Getting answer from assistant using {model_choice} model and {search_type} search"
+                f"Getting answer from Linguist using {model_choice} model and {search_type} search"
             )
             start_time = time.time()
-            answer_data = rag(user_input, model_choice) #search_type will be added later
+            answer_data = rag(user_input, model_choice[7:]) #search_type will be added later
             end_time = time.time()
             print_log(f"Answer received in {end_time - start_time:.2f} seconds")
             st.success("Completed!")
@@ -67,11 +67,9 @@ def main():
             # Save conversation to database
             print_log("Saving conversation to database")
             save_conversation(
-                st.session_state.conversation_id, user_input, answer_data, course
+                st.session_state.conversation_id, user_input, answer_data
             )
             print_log("Conversation saved successfully")
-            # Generate a new conversation ID for next question
-            st.session_state.conversation_id = str(uuid.uuid4())
 
     # Feedback buttons
     col1, col2 = st.columns(2)
@@ -115,6 +113,8 @@ def main():
     st.write(f"Thumbs up: {feedback_stats['thumbs_up']}")
     st.write(f"Thumbs down: {feedback_stats['thumbs_down']}")
 
+    # Generate a new conversation ID for next question
+    st.session_state.conversation_id = str(uuid.uuid4())
 
 print_log("Streamlit app loop completed")
 

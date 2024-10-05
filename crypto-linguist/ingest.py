@@ -4,7 +4,7 @@ import pandas as pd
 import minsearch
 
 
-DATA_PATH = os.getenv("DATA_PATH", "../data/data.csv")
+DATA_PATH = os.getenv("DATA_PATH", "./data/data.csv") # "../data/data.csv" with flask?
 
 
 def load_index(data_path=DATA_PATH):
