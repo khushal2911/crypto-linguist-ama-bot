@@ -55,7 +55,7 @@ def build_prompt(query, search_results):
     return prompt
 
 
-def llm(prompt, model="gpt-4o-mini"):
+def llm(prompt, model):
     response = client.chat.completions.create(
         model=model, messages=[{"role": "user", "content": prompt}]
     )
@@ -92,9 +92,9 @@ and provide your evaluation in parsable JSON without using code blocks:
 """.strip()
 
 
-def evaluate_relevance(question, answer):
+def evaluate_relevance(question, answer, model):
     prompt = evaluation_prompt_template.format(question=question, answer=answer)
-    evaluation, tokens = llm(prompt, model="gpt-4o-mini")
+    evaluation, tokens = llm(prompt, model)
 
     try:
         json_eval = json.loads(evaluation)
@@ -106,25 +106,29 @@ def evaluate_relevance(question, answer):
 
 def calculate_openai_cost(model, tokens):
     openai_cost = 0
-
+    # ref (https://openai.com/api/pricing/) for pricing updates
     if model == "gpt-4o-mini":
         openai_cost = (
             tokens["prompt_tokens"] * 0.00015 + tokens["completion_tokens"] * 0.0006
         ) / 1000
-    else:
+    else if model == "gpt-3.5-turbo":
+        openai_cost = (
+            tokens["prompt_tokens"] * 0.0015 + tokens["completion_tokens"] * 0.003
+        ) / 1000
+    else:        
         print("Model not recognized. OpenAI cost calculation failed.")
 
     return openai_cost
 
 
-def rag(query, model="gpt-4o-mini"):
+def rag(query, model):
     t0 = time()
 
     search_results = search(query)
     prompt = build_prompt(query, search_results)
-    answer, token_stats = llm(prompt, model=model)
+    answer, token_stats = llm(prompt, model)
 
-    relevance, rel_token_stats = evaluate_relevance(query, answer)
+    relevance, rel_token_stats = evaluate_relevance(query, answer, model)
 
     t1 = time()
     took = t1 - t0

@@ -1,27 +1,6 @@
 # Crypto Linguist Chatbot
-
-
-## Using the application
-When the application is running (docker-compose up), we can start using it as follows.
-
-### requests to ask questions : 
-enter the question inside test.py file and execute the script in separate terminal as "python test.py"
-
-
-
-
-
-
-
-
-
-
-
-MODIFY FOLLOWING README FILE FOR CRYPTO LINGUIST
-
 This project was implemented for 
-[LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
-a free course about LLMs and RAG.
+[LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) - a free course about LLMs and RAG.
 
 ## Overview
 The Crypto Linguist Chatbot is a specialized chatbot designed to assist users in understanding the world of cryptocurrency and blockchain technology. This project is developed as part of the LLM-Zoomcamp course and aims to provide clear, concise explanations of key crypto-related terms through a carefully curated knowledge base generated with chatGPT.
@@ -69,7 +48,7 @@ You can find the data in [`data/data.csv`](data/data.csv).
 - [Minsearch](https://github.com/alexeygrigorev/minsearch) for full-text search
 - Flask as the API interface (see [Background](#background) for more information on Flask)
 - Grafana for monitoring and PostgreSQL as the backend for it
-- OpenAI gpt-4o-mini as an LLM
+- OpenAI Models as an LLM
 
 ## Preparation
 
@@ -143,9 +122,16 @@ select * from conversations;
 
 The easiest way to run the application is with `docker-compose`:
 
-```bash
-docker-compose up
-```
+Run with specific files: Use the -f flag with docker-compose to specify the file to use. For example:
+
+'''bash
+docker-compose -f docker-compose.dev.yaml up
+'''
+Or for production:
+
+'''bash
+docker-compose -f docker-compose.prod.yaml up
+'''
 
 ### Running locally
 
@@ -216,7 +202,7 @@ pipenv run python cli.py
 ```
 
 You can also make it randomly select a question from
-[our ground truth dataset](data/ground-truth-retrieval.csv):
+[our ground truth dataset](data/crypto-guru-ground-truth-data.csv):
 
 ```bash
 pipenv run python cli.py --random
@@ -232,75 +218,24 @@ to send questions—use [test.py](test.py) for testing it:
 pipenv run python test.py
 ```
 
-It can pick a random question from the ground truth dataset or you can write your own
+It can also pick a random question from the ground truth dataset or you can write your own
 and send it to the app.
 
-### CURL
+## Code Structure
 
-You can also use `curl` for interacting with the API:
+The code for the application is in the [`crypto-linguist`](crypto-linguist/) folder:
 
-```bash
-URL=http://localhost:5000
-QUESTION="Is the Lat Pulldown considered a strength training activity, and if so, why?"
-DATA='{
-    "question": "'${QUESTION}'"
-}'
-
-curl -X POST \
-    -H "Content-Type: application/json" \
-    -d "${DATA}" \
-    ${URL}/question
-```
-
-You will see something like the following in the response:
-
-```json
-{
-    "answer": "Yes, the Lat Pulldown is considered a strength training activity. This classification is due to it targeting specific muscle groups, specifically the Latissimus Dorsi and Biceps, which are essential for building upper body strength. The exercise utilizes a machine, allowing for controlled resistance during the pulling action, which is a hallmark of strength training.",
-    "conversation_id": "4e1cef04-bfd9-4a2c-9cdd-2771d8f70e4d",
-    "question": "Is the Lat Pulldown considered a strength training activity, and if so, why?"
-}
-```
-
-Sending feedback:
-
-```bash
-ID="4e1cef04-bfd9-4a2c-9cdd-2771d8f70e4d"
-URL=http://localhost:5000
-FEEDBACK_DATA='{
-    "conversation_id": "'${ID}'",
-    "feedback": 1
-}'
-
-curl -X POST \
-    -H "Content-Type: application/json" \
-    -d "${FEEDBACK_DATA}" \
-    ${URL}/feedback
-```
-
-After sending it, you'll receive the acknowledgement:
-
-```json
-{
-    "message": "Feedback received for conversation 4e1cef04-bfd9-4a2c-9cdd-2771d8f70e4d: 1"
-}
-```
-
-## Code
-
-The code for the application is in the [`fitness_assistant`](fitness_assistant/) folder:
-
-- [`app.py`](fitness_assistant/app.py) - the Flask API, the main entrypoint to the application
-- [`rag.py`](fitness_assistant/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
-- [`ingest.py`](fitness_assistant/ingest.py) - loading the data into the knowledge base
-- [`minsearch.py`](fitness_assistant/minsearch.py) - an in-memory search engine
-- [`db.py`](fitness_assistant/db.py) - the logic for logging the requests and responses to postgres
-- [`db_prep.py`](fitness_assistant/db_prep.py) - the script for initializing the database
+- [`app.py`](crypto-linguist/app.py) - the Flask API, the main entrypoint to the application
+- [`rag.py`](crypto-linguist/rag.py) - the main RAG logic for retrieving the data and building the prompt
+- [`ingest.py`](crypto-linguist/ingest.py) - loading the data into the knowledge base
+- [`minsearch.py`](crypto-linguist/minsearch.py) - an in-memory search engine
+- [`db.py`](crypto-linguist/db.py) - the logic for logging the requests and responses to postgres
+- [`db_prep.py`](crypto-linguist/db_prep.py) - the script for initializing the database
 
 We also have some code in the project root directory:
 
 - [`test.py`](test.py) - select a random question for testing
-- [`cli.py`](cli.py) - interactive CLI for the APP
+- [`cli.py`](cli.py) - interactive CLI for the APP, can pick randomly from data as well.
 
 ### Interface
 
@@ -311,55 +246,53 @@ for examples on how to interact with the application.
 
 ### Ingestion
 
-The ingestion script is in [`ingest.py`](fitness_assistant/ingest.py).
+The ingestion script is in [`ingest.py`](crypto-linguist/ingest.py).
 
 Since we use an in-memory database, `minsearch`, as our
 knowledge base, we run the ingestion script at the startup
 of the application.
 
-It's executed inside [`rag.py`](fitness_assistant/rag.py)
+It's executed inside [`rag.py`](crypto-linguist/rag.py)
 when we import it.
 
 ## Experiments
 
 For experiments, we use Jupyter notebooks.
-They are in the [`notebooks`](notebooks/) folder.
+They are in the [`intro`](intro/) folder.
 
 To start Jupyter, run:
 
 ```bash
-cd notebooks
+cd intro
 pipenv run jupyter notebook
 ```
 
 We have the following notebooks:
 
-- [`rag-test.ipynb`](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
-- [`evaluation-data-generation.ipynb`](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
+- [`rag-test.ipynb`](intro/rag-test.ipynb): The RAG flow with minsearch and elastic search.
+- [`vector_search.ipynb`](intro/vector_search.ipynb): The RAG flow with vector search.
+- [`evaluation-data-generation.ipynb`](intro/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
+- [`project-pipeline.ipynb`](intro/project-pipeline.ipynb): The complete RAG flow as expected in the project.md. Retrieval evaluation using parameter optimization and RAG evaluations using 'LLM As Judge'
 
 ### Retrieval evaluation
 
 The basic approach - using `minsearch` without any boosting - gave the following metrics:
 
-- Hit rate: 94%
-- MRR: 82%
+- Hit rate: 99.5%
+- MRR: 92%
 
-The improved version (with tuned boosting):
+The improved version (with parameter tuned boosting):
 
-- Hit rate: 94%
-- MRR: 90%
+- Hit rate: 99.5%
+- MRR: 95.7%
 
 The best boosting parameters:
 
 ```python
 boost = {
-    'exercise_name': 2.11,
-    'type_of_activity': 1.46,
-    'type_of_equipment': 0.65,
-    'body_part': 2.65,
-    'type': 1.31,
-    'muscle_groups_activated': 2.54,
-    'instructions': 0.74
+    'term':0.39,
+    'category':0.15,
+    'descriptions':0.23
 }
 ```
 
@@ -370,15 +303,15 @@ of our RAG flow.
 
 For `gpt-4o-mini`, in a sample with 200 records, we had:
 
-- 167 (83%) `RELEVANT`
-- 30 (15%) `PARTLY_RELEVANT`
-- 3 (1.5%) `NON_RELEVANT`
+- 86% `RELEVANT`
+- 5% `PARTLY_RELEVANT`
+- 9% `NON_RELEVANT`
 
 We also tested `gpt-4o`:
 
-- 168 (84%) `RELEVANT`
-- 30 (15%) `PARTLY_RELEVANT`
-- 2 (1%) `NON_RELEVANT`
+- 87% `RELEVANT`
+- 6% `PARTLY_RELEVANT`
+- 7% `NON_RELEVANT`
 
 The difference is minimal, so we opted for `gpt-4o-mini`.
 
@@ -392,10 +325,6 @@ It's accessible at [localhost:3000](http://localhost:3000):
 - Password: "admin"
 
 ### Dashboards
-
-<p align="center">
-  <img src="images/dash.png">
-</p>
 
 The monitoring dashboard contains several panels:
 
@@ -415,7 +344,7 @@ All Grafana configurations are in the [`grafana`](grafana/) folder:
 - [`dashboard.json`](grafana/dashboard.json) - the actual dashboard (taken from LLM Zoomcamp without changes).
 
 To initialize the dashboard, first ensure Grafana is
-running (it starts automatically when you do `docker-compose up`).
+running (it starts automatically when you do `docker-compose -f docker-compose.prod.yaml up`).
 
 Then run:
 
@@ -456,4 +385,4 @@ For more information, visit the [official Flask documentation](https://flask.pal
 
 ## Acknowledgements 
 
-Thank you for exploring crypto-assistant. Hope you liked it. 
+Thank you for exploring crypto-linguist. Hope you liked it. 

@@ -19,7 +19,7 @@ def handle_question():
 
     conversation_id = str(uuid.uuid4())
 
-    answer_data = rag(question)
+    answer_data = rag(question,model="gpt-4o-mini")
 
     result = {
         "conversation_id": conversation_id,

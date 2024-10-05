@@ -21,6 +21,7 @@ jupyter = "*"
 requests = "*"
 pgcli = "*"
 questionary = "*"
+streamlit = "*"
 
 [requires]
 python_version = "3.12"
