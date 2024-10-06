@@ -1,5 +1,5 @@
 # Crypto Linguist Chatbot
-This project was implemented for 
+This project was implemented as part of certification requirement 
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) - a free course about LLMs and RAG.
 
 ## Overview
@@ -47,6 +47,7 @@ You can find the data in [`data/data.csv`](data/data.csv).
 - Docker and Docker Compose for containerization
 - [Minsearch](https://github.com/alexeygrigorev/minsearch) for full-text search
 - Flask as the API interface (see [Background](#background) for more information on Flask)
+- Streamlit UI for users to interact, ask questions, select model and give feedback on the answers.
 - Grafana for monitoring and PostgreSQL as the backend for it
 - OpenAI Models as an LLM
 
@@ -76,16 +77,15 @@ pipenv install --dev
 
 ## Running the application
 
-
-### Database configuration
-
 Before the application starts for the first time, the database
 needs to be initialized.
 
-First, run `postgres`:
+### Database configuration
+
+First, run `postgres` service from docker-compose:
 
 ```bash
-docker-compose up postgres
+docker-compose -f docker-compose.prod.yaml up postgres
 ```
 
 Then run the [`db_prep.py`](crypto-linguist/db_prep.py) script:
@@ -103,8 +103,9 @@ To check the content of the database, use `pgcli` (already
 installed with pipenv):
 
 ```bash
-pipenv run pgcli -h localhost -U your_username -d crypto_linguist -W
+pipenv run pgcli -h localhost -U kk -d crypto_linguist -W
 ```
+enter 'kk' if prompted for password.
 
 You can view the schema using the `\d` command:
 
@@ -122,12 +123,14 @@ select * from conversations;
 
 The easiest way to run the application is with `docker-compose`:
 
-Run with specific files: Use the -f flag with docker-compose to specify the file to use. For example:
+Run with specific files: 
+Use the -f flag with docker-compose to specify the file to use. 
+For example: 'dev' runs Flask application
 
 ```bash
 docker-compose -f docker-compose.dev.yaml up
 ```
-Or for production:
+while 'prod' runs Streamlit application on 'localhost:8501' as below:
 
 ```bash
 docker-compose -f docker-compose.prod.yaml up
@@ -139,14 +142,14 @@ If you want to run the application locally,
 start only postres and grafana:
 
 ```bash
-docker-compose up postgres grafana
+docker-compose -f docker-compose.dev.yaml up postgres grafana
 ```
 
 If you previously started all applications with
 `docker-compose up`, you need to stop the `app`:
 
 ```bash
-docker-compose stop app
+docker-compose -f docker-compose.dev.yaml stop app
 ```
 
 Now run the app on your host machine:
@@ -251,7 +254,7 @@ The code for the application is in the [`crypto-linguist`](crypto-linguist/) fol
 We also have some code in the project root directory:
 
 - [`test.py`](test.py) - select a random question for testing
-- [`app_cli.py`](app_cli.py) - interactive CLI for the APP, can pick randomly from data as well.
+- [`app_cli.py`](app_cli.py) - interactive CLI for the Flask App, can pick randomly from data as well.
 
 ### Interface
 
@@ -288,7 +291,7 @@ We have the following notebooks:
 - [`rag-test.ipynb`](intro/rag-test.ipynb): The RAG flow with minsearch and elastic search.
 - [`vector_search.ipynb`](intro/vector_search.ipynb): The RAG flow with vector search.
 - [`evaluation-data-generation.ipynb`](intro/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
-- [`project-pipeline.ipynb`](intro/project-pipeline.ipynb): The complete RAG flow as expected in the project.md. Retrieval evaluation using parameter optimization and RAG evaluations using 'LLM As Judge'
+- [`project-pipeline.ipynb`](intro/project-pipeline.ipynb): Covers the complete RAG flow as expected in the project.md and Retrieval evaluation using parameter optimization along with RAG evaluations using 'LLM As Judge'.
 
 ### Retrieval evaluation
 
@@ -302,7 +305,7 @@ The improved version (with parameter tuned boosting):
 - Hit rate: 99.5%
 - MRR: 95.7%
 
-The best boosting parameters:
+The best boosting parameters are:
 
 ```python
 boost = {
@@ -317,7 +320,7 @@ boost = {
 We used the LLM-as-a-Judge metric to evaluate the quality
 of our RAG flow.
 
-For `gpt-4o-mini`, in a sample with 200 records, we had:
+For `gpt-4o-mini`, in a sample with 100 records, we had:
 
 - 86% `RELEVANT`
 - 5% `PARTLY_RELEVANT`
@@ -360,7 +363,7 @@ All Grafana configurations are in the [`grafana`](grafana/) folder:
 - [`dashboard.json`](grafana/dashboard.json) - the actual dashboard (taken from LLM Zoomcamp without changes).
 
 To initialize the dashboard, first ensure Grafana is
-running (it starts automatically when you do `docker-compose -f docker-compose.prod.yaml up`).
+running (it starts automatically when you do `docker-compose -f yaml_file up`).
 
 Then run:
 

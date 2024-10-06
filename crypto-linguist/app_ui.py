@@ -65,11 +65,11 @@ def main():
                 st.write(f"OpenAI cost: ${answer_data['openai_cost']:.4f}")
 
             # Save conversation to database
-            print_log("Saving conversation to database")
+            print_log(f"Saving conversation with ID: {st.session_state.conversation_id}")
             save_conversation(
                 st.session_state.conversation_id, user_input, answer_data
             )
-            print_log("Conversation saved successfully")
+            st.write(f"Conversation ID: {conversation_id} saved to database")
 
     # Feedback buttons
     col1, col2 = st.columns(2)
@@ -77,7 +77,7 @@ def main():
         if st.button("+1"):
             st.session_state.count += 1
             print_log(
-                f"Positive feedback received. New count: {st.session_state.count}"
+                f"Positive feedback received for conversation {conversation_id}. New count: {st.session_state.count}"
             )
             save_feedback(st.session_state.conversation_id, 1)
             print_log("Positive feedback saved to database")
@@ -85,7 +85,7 @@ def main():
         if st.button("-1"):
             st.session_state.count -= 1
             print_log(
-                f"Negative feedback received. New count: {st.session_state.count}"
+                f"Negative feedback received for conversation {conversation_id}. New count: {st.session_state.count}"
             )
             save_feedback(st.session_state.conversation_id, -1)
             print_log("Negative feedback saved to database")
