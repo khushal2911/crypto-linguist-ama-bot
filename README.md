@@ -77,8 +77,7 @@ pipenv install --dev
 
 ## Running the application
 
-Before the application starts for the first time, the database
-needs to be initialized.
+Before the application starts for the first time, the database needs to be initialized.
 
 ### Database configuration
 
@@ -189,56 +188,6 @@ docker run -it --rm \
     crypto-linguist
 ```
 
-## Using the Flask application
-
-Modify dockerfile to run flask application as below:
-Uncomment following lines
-```
-#EXPOSE 5000
-#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
-```
-And comment following lines related to streamlit app
-```
-EXPOSE 8501
-CMD ["streamlit", "run", "app_ui.py"]
-```
-Now build the dockerfile as below
-```docker-compose -f docker-compose.dev.yaml up --build```
-
-When the application is running, we can start using it.
-
-### CLI
-
-We built an interactive CLI application using
-[questionary](https://questionary.readthedocs.io/en/stable/).
-
-To start it, run:
-
-```bash
-pipenv run python app_cli.py
-```
-
-You can also make it randomly select a question from
-[our ground truth dataset](data/crypto-guru-ground-truth-data.csv):
-
-```bash
-pipenv run python cli.py --random
-```
-
-### Using `requests`
-
-When the application is running, you can use
-[requests](https://requests.readthedocs.io/en/latest/)
-to send questions—use [test.py](test.py) for testing it:
-
-```bash
-pipenv run python test.py
-```
-
-It can also pick a random question from the ground truth dataset or you can write your own
-and send it to the app.
-
-
 ## Code Structure
 
 The code for the application is in the [`crypto-linguist`](crypto-linguist/) folder:
@@ -260,8 +209,12 @@ We also have some code in the project root directory:
 
 We use Flask for serving the application as an API.
 
-Refer to the ["Using the Application" section](#using-the-application)
-for examples on how to interact with the application.
+Refer to the ["Using the Flask Application"](#using-the-flask-application)
+for examples on how to interact with the Flask application.
+
+The application UI is also available (with streamlit) if you run prod.yaml.
+The UI is pretty straightforward to use.
+
 
 ### Ingestion
 
@@ -384,6 +337,55 @@ Then go to [localhost:3000](http://localhost:3000):
 - Password: "admin"
 
 When prompted, keep "admin" as the new password.
+
+## Using the Flask application
+
+Modify dockerfile to run flask application as below:
+Uncomment following lines
+```
+#EXPOSE 5000
+#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+```
+And comment following lines related to streamlit app
+```
+EXPOSE 8501
+CMD ["streamlit", "run", "app_ui.py"]
+```
+Now build the dockerfile as below
+```docker-compose -f docker-compose.dev.yaml up --build```
+
+When the application is running, we can start using it.
+
+### CLI
+
+We built an interactive CLI application using
+[questionary](https://questionary.readthedocs.io/en/stable/).
+
+To start it, run:
+
+```bash
+pipenv run python app_cli.py
+```
+
+You can also make it randomly select a question from
+[our ground truth dataset](data/crypto-guru-ground-truth-data.csv):
+
+```bash
+pipenv run python cli.py --random
+```
+
+### Using `requests`
+
+When the application is running, you can use
+[requests](https://requests.readthedocs.io/en/latest/)
+to send questions—use [test.py](test.py) for testing it:
+
+```bash
+pipenv run python test.py
+```
+
+It can also pick a random question from the ground truth dataset or you can write your own
+and send it to the app.
 
 ## Background
 
