@@ -298,6 +298,9 @@ It's accessible at [localhost:3000](http://localhost:3000):
 
 ### Dashboards
 
+<p align="center">
+  <img src="images/grafana-dash.png">
+</p>
 The monitoring dashboard contains several panels:
 
 1. **Last 5 Conversations (Table):** Displays a table showing the five most recent conversations, including details such as the question, answer, relevance, and timestamp. This panel helps monitor recent interactions with users.
@@ -371,10 +374,16 @@ You can also make it randomly select a question from
 [our ground truth dataset](data/crypto-guru-ground-truth-data.csv):
 
 ```bash
-pipenv run python cli.py --random
+pipenv run python app_cli.py --random
 ```
-You can find the screenshots of the working cli application and grafana dashboard updated with metrics
-in (screenshots) folder
+<p align="center">
+  <img src="images/cli-ex1.png">
+</p>
+
+<p align="center">
+  <img src="images/cli-ex2.png">
+</p>
+
 ### Using `requests`
 
 When the application is running, you can use
