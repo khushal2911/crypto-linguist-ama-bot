@@ -207,13 +207,13 @@ We also have some code in the project root directory:
 
 ### Interface
 
-We use Flask for serving the application as an API.
+We use Flask for serving the application as an API on port 5000.
 
 Refer to the ["Using the Flask Application"](#using-the-flask-application)
 for examples on how to interact with the Flask application.
 
-The application UI is also available (with streamlit) if you run prod.yaml.
-The UI is pretty straightforward to use.
+The application is also available using Streamlit Web UI. Refer to the ["Using the Streamlit Application"](#using-the-streamlit-application)
+for examples on how to interact with the Streamlit application.
 
 
 ### Ingestion
@@ -320,6 +320,8 @@ All Grafana configurations are in the [`grafana`](grafana/) folder:
 
 To initialize the dashboard, first ensure Grafana is
 running (it starts automatically when you do `docker-compose -f yaml_file up`).
+Forward port 3000 in terminal if not done automatically.
+
 
 Then run:
 
@@ -346,13 +348,13 @@ When prompted, keep "admin" as the new password.
 Modify dockerfile to run flask application as below:
 Uncomment following lines
 ```
-#EXPOSE 5000
-#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+EXPOSE 5000
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
 ```
 And comment following lines related to streamlit app
 ```
-EXPOSE 8501
-CMD ["streamlit", "run", "app_ui.py"]
+#EXPOSE 8501
+#CMD ["streamlit", "run", "app_ui.py"]
 ```
 Now build the dockerfile as below
 ```docker-compose -f docker-compose.dev.yaml up --build```
@@ -396,6 +398,30 @@ pipenv run python test.py
 
 It can also pick a random question from the ground truth dataset or you can write your own
 and send it to the app.
+
+## Using the Streamlit application
+
+Modify dockerfile to run streamlit application as below:
+Comment following lines for flask app
+```
+#EXPOSE 5000
+#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+```
+And Uncomment following lines related to streamlit app
+```
+EXPOSE 8501
+CMD ["streamlit", "run", "app_ui.py"]
+```
+Now build the dockerfile as below
+```docker-compose -f docker-compose.prod.yaml up --build```
+
+When the application is running, we can start using it on "localhost:8501"
+Currently there's a problem in saving feedback via streamlit. 
+I'm working on resolving the mismatch in conversation_ids while saving conversation and feedback.
+
+<p align="center">
+  <img src="images/streamlit-ex1.png">
+</p>
 
 ## Background
 
