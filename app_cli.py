@@ -37,7 +37,7 @@ def main():
     base_url = "http://localhost:5000"
     csv_file = "./data/crypto-guru-ground-truth-data.csv"
 
-    print("Welcome to the interactive question-answering app!")
+    print("Welcome to the interactive crypto linguist app!")
     print("You can exit the program at any time when prompted.")
 
     while True:

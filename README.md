@@ -373,7 +373,8 @@ You can also make it randomly select a question from
 ```bash
 pipenv run python cli.py --random
 ```
-
+You can find the screenshots of the working cli application and grafana dashboard updated with metrics
+in (screenshots) folder
 ### Using `requests`
 
 When the application is running, you can use
